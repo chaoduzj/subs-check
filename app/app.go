@@ -177,8 +177,12 @@ func (app *App) useIntervalTimer() {
 
 // TriggerCheck 供外部调用的触发检测方法
 func (app *App) TriggerCheck() {
-	app.checkChan <- struct{}{}
-	slog.Info("手动触发检测")
+	select {
+	case app.checkChan <- struct{}{}:
+		slog.Info("手动触发检测")
+	default:
+		slog.Warn("已有检测正在进行，忽略本次触发")
+	}
 }
 
 // triggerCheck 内部检测方法
