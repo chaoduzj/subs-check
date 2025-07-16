@@ -18,7 +18,7 @@ timeout: 4000
 # 测速地址(注意 并发数*节点速度<最大网速 否则测速结果不准确)
 # 尽量不要使用Speedtest，Cloudflare提供的下载链接，因为很多节点屏蔽测速网站
 # 如果找不到稳定的测速地址，可以自建测速地址
-speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z
+speed-test-url: https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BGUID%7D%26lang%3Den%26browser%3D4%26usagestats3D0%26appname%3DChrome%26needsadmin%3Dfalse/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
 # 最低测速结果舍弃(KB/s)
 min-speed: 2048
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
