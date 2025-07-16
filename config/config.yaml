@@ -46,9 +46,9 @@ media-check: true
 platforms:
   - openai
   - youtube
-  - netflix
-  - disney
-  - gemini
+#  - netflix
+#  - disney
+#  - gemini
   - iprisk
   - tiktok
 # 保留之前测试成功的节点
