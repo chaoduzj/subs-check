@@ -44,13 +44,13 @@ node-prefix: ""
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
 media-check: true
 platforms:
-  - openai
-  - youtube
-#  - netflix
-#  - disney
-#  - gemini
   - iprisk
   - tiktok
+  - youtube
+  # - netflix
+  # - disney
+  - openai
+  # - gemini
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
 keep-success-proxies: false
@@ -69,7 +69,7 @@ output-dir: ""
 enable-web-ui: true
 # 填写Web控制面板的api-key，如果为空，则自动生成
 # 配置文件为空时，支持使用环境变量设置 API_KEY
-api-key: "140800"
+api-key: ""
 
 # 检测完成后执行的回调脚本路径
 # 脚本将在检测完成后执行，可用于自定义通知或其他操作
@@ -102,7 +102,7 @@ sub-store-path: ""
 # 覆写订阅的url，这个的作用是生成带指定规则的mihomo/clash.meta订阅链接
 # 防止网络不好，所以现在内置，依赖:8199端口
 # 如果你想替换其他的自定义覆写文件，自己命名后放在output目录，然后更改此URL后缀即可
-mihomo-overwrite-url: "http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml"
+mihomo-overwrite-url: "http://127.0.0.1:8199/sub/ACL4SSR_Online_Fritz.yaml"
 
 # mihomo api url(测试完成后自动更新mihomo订阅，使用场景有限不要使用)
 mihomo-api-url: ""
