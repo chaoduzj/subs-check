@@ -12,18 +12,17 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
+  - name: ♻️ 个人常用
+    type: select
+    include-all: true
+    filter: (?i)(?=.*GPT)(?=.*YT)(?=.*TK)
   - name: 🚀 手动切换
     include-all: true
     type: select
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
-    interval: 600
-    tolerance: 50
-  - name: ♻️ 个人常用
-    type: url-test
-    include-all: true
-    filter: (?i)(?=.*GPT)(?=.*YT)(?=.*TK)
+    filter: (?i)(?=.*GPT)
     interval: 300
     tolerance: 50
   - name: 📲 电报消息
