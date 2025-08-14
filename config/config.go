@@ -32,6 +32,7 @@ type Config struct {
 	SubUrlsReTry         int      `yaml:"sub-urls-retry"`
 	SubUrlsRetryInterval int      `yaml:"sub-urls-retry-interval"`
 	SubUrlsTimeout       int      `yaml:"sub-urls-timeout"`
+	SubUrlsRemote        []string `yaml:"sub-urls-remote"`
 	SubUrls              []string `yaml:"sub-urls"`
 	SuccessRate          float32  `yaml:"success-rate"`
 	MihomoApiUrl         string   `yaml:"mihomo-api-url"`
@@ -45,6 +46,9 @@ type Config struct {
 	NotifyTitle          string   `yaml:"notify-title"`
 	SubStorePort         string   `yaml:"sub-store-port"`
 	SubStorePath         string   `yaml:"sub-store-path"`
+	SubStoreSyncCron     string   `yaml:"sub-store-sync-cron"`
+	SubStorePushService  string   `yaml:"sub-store-push-service"`
+	SubStoreProduceCron  string   `yaml:"sub-store-produce-cron"`
 	MihomoOverwriteUrl   string   `yaml:"mihomo-overwrite-url"`
 	MediaCheck           bool     `yaml:"media-check"`
 	Platforms            []string `yaml:"platforms"`
