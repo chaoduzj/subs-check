@@ -2,7 +2,7 @@ name: Subs Check
 
 on:
   schedule:
-    - cron: '0 0,4,8,12,16 * * *'
+    - cron: '0 0,12 * * *'
   workflow_dispatch:
 
 jobs:
