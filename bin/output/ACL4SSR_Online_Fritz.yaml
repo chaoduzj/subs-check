@@ -15,7 +15,7 @@ proxy-groups:
   - name: ♻️ 个人常用
     type: select
     include-all: true
-    filter: (?i)(?=.*GPT)(?=.*YT)(?=.*TK)
+    filter: (?i)(?=.*GPT⁺)(?=.*YT)
   - name: 🚀 手动切换
     include-all: true
     type: select
