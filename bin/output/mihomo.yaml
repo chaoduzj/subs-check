@@ -1,240 +1,60 @@
 proxies:
   - cipher: aes-256-cfb
-    name: "\U0001F1E8\U0001F1E6CA_1|15.6MB/s|5%|TK-CA|YT-CA|GPT⁺"
+    group: SSRProvider
+    name: "\U0001F1E8\U0001F1E6CA_1|47.8MB/s|0%|TK-CA|YT-CA|GPT⁺"
     obfs: plain
     password: f8f7aCzcPKbsF8p3
     port: 989
     protocol: origin
     server: 79.127.233.170
     type: ssr
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_1|30.2MB/s|TK-US|YT-US|GPT⁺"
+    network: tcp
+    port: 443
+    server: 165.140.216.141
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    ws-headers:
+      Host: 165.140.216.141
+    ws-path: /
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE_1|5.0MB/s|32%|TK-DE|YT-US|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_2|9.4MB/s|100%|TK-US|YT-US|GPT⁺"
+    password: 360e21d21977dc11
+    port: 57456
+    server: 104.167.197.25
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_1|5.1MB/s|4%|TK-NL|YT-NL|GPT⁺"
+    password: qscavF5UviIL-8V-E4raBA
+    port: 2222
+    server: 91.84.104.133
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E6\U0001F1F2AM_1|6.7MB/s|8%|TK-FR|YT-US|GPT⁺"
+    password: a58fa62b4944ddbf
+    port: 57456
+    server: 81.19.137.222
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_1|6.2MB/s|32%|TK-DE|YT-US|GPT⁺"
     password: a58fa62b4944ddbf
     port: 57456
     server: 147.45.178.200
     type: ss
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|6.8MB/s|0%|TK-GB|YT-US|GPT⁺"
-    password: c40641c1f89e7acb
-    port: 57456
-    server: 46.226.163.225
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_2|3.5MB/s|53%|TK-NL|YT-NL|GPT⁺"
-    password: zI7kiNZ0UfV9cXB73a4nRD
-    port: 24206
-    server: 164.92.156.41
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE_2|3.1MB/s|49%|TK-DE|YT-DE|GPT⁺"
+    name: "\U0001F1E9\U0001F1EADE_2|3.3MB/s|49%|TK-DE|YT-DE|GPT⁺"
     password: oXGp1+ihlfKg826H
     port: 1866
     server: 185.177.229.245
     type: ss
-  - name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|TK-US|YT-US"
-    network: ws
-    port: 80
-    server: 45.159.218.17
-    type: vless
-    udp: true
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    ws-opts:
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/\U0001F512"
-    xudp: true
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E8\U0001F1EDCH_1|2.5MB/s|45%|TK-CH|YT-CH|GPT⁺"
-    password: oXGp1+ihlfKg826H
-    port: 1866
-    server: 204.136.10.115
-    type: ss
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|17.4MB/s|5%|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2083
-    server: rak1ding.89060004.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 75d96365-1229-4fc4-dbda-855717f876cf
-    ws-opts:
-      headers:
-        Host: rak1d3.988988.shop
-      path: /
-    xudp: true
-    servername: rak1ding.89060004.xyz
-  - http-opts:
-      headers:
-        Host:
-          - zhaket.com
-      method: GET
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_3|10.1MB/s|49%|TK-US|YT-US|GPT⁺"
-    network: http
-    port: 625
-    server: uk.hotspoto.news
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 6c8f15df-cd15-4002-abfd-3902ceffb5b9
-    servername: zhaket.com
-  - name: "\U0001F1E9\U0001F1EADE_3|3.2MB/s|25%|TK-DE|GPT⁺"
-    network: tcp
-    port: 8443
-    server: cdn29.saloonak.ir
-    type: vless
-    udp: true
-    uuid: 789d4f30-c31b-4762-8116-ed42574d5e85
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_4|5.1MB/s|TK-US|YT-US"
-    network: ws
-    password: f282b878-8711-45a1-8c69-5564172123c1
-    port: 443
-    server: aio.zipzap.biz.id
-    skip-cert-verify: false
-    sni: aio.zipzap.biz.id
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /aioproxybot/129.150.49.58-18650
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|3.2MB/s|7%|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 443
-    server: api.jquery.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-    ws-opts:
-      headers:
-        Host: admin.kasrax.ir
-      path: /us.kkp.me.eu.org/aa
-    xudp: true
-    servername: api.jquery.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|17.5MB/s|TK-US|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 63015
-    server: 108.181.5.130
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_7|8.1MB/s|TK-US|YT-CN|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 22222
-    server: 208.87.243.187
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_8|4.7MB/s|46%|TK-US|YT-US|GPT⁺"
-    obfs: salamander
-    obfs-password: qilebcibeMO3IVBnfqal3i
-    password: y0b0F707xv
-    port: 11726
-    server: p1.3dfigures.ir
-    skip-cert-verify: true
-    sni: p1.3dfigures.ir
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_9|4.9MB/s|46%|TK-US|YT-US|GPT⁺"
-    obfs: salamander
-    obfs-password: ywfihi3ohyg9iun3gvu
-    password: y0b0F707xv
-    port: 18646
-    server: p1.3dfigures.ir
-    skip-cert-verify: true
-    sni: p1.3dfigures.ir
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_10|4.1MB/s|46%|TK-US|YT-US|GPT⁺"
-    obfs: salamander
-    obfs-password: Djxsjduwue
-    password: y0b0F707xv
-    port: 501
-    server: p1.3dfigures.ir
-    skip-cert-verify: true
-    sni: p1.3dfigures.ir
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_11|3.9MB/s|46%|TK-US|YT-US|GPT⁺"
-    obfs: salamander
-    obfs-password: 31khbqfou1njilgv2qoih
-    password: y0b0F707xv
-    port: 20971
-    server: p1.3dfigures.ir
-    skip-cert-verify: true
-    sni: p1.3dfigures.ir
-    type: hysteria2
-    up: ''
-  - alterId: 0
-    cipher: auto
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_12|111.7MB/s|TK-US|YT-US|GPT⁺"
-    port: 443
-    server: 165.140.216.141
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    type: vmess
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  - name: "\U0001F1FA\U0001F1F8US_13|30.1MB/s|TK-US"
-    network: ws
-    port: 80
-    server: aio.loophole.biz.id
-    type: vless
-    udp: true
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    ws-opts:
-      headers:
-        Host: aio.loophole.biz.id
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /aioproxybot/129.150.49.58-18650
-    xudp: true
-    servername: aio.loophole.biz.id
   - alterId: 0
     cipher: none
-    name: "\U0001F1E6\U0001F1FAAU_1|6.0MB/s|TK-AU|YT-AU|GPT⁺"
+    name: "\U0001F1E6\U0001F1FAAU_1|7.6MB/s|TK-AU|YT-AU|GPT⁺"
     network: tcp
     port: 443
     server: 103.57.249.204
@@ -245,28 +65,9 @@ proxies:
     ws-headers:
       Host: 103.57.249.204
     ws-path: /
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_14|5.6MB/s|5%|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2083
-    server: rak1ding.89060004.xyz
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 75d96365-1229-4fc4-dbda-855717f876cf
-    ws-opts:
-      headers:
-        Host: rak1d3.988988.shop
-      path: /
-    xudp: true
-    servername: rak1d3.988988.shop
   - alterId: 0
     cipher: auto
-    name: "\U0001F1E6\U0001F1EAAE_1|4.1MB/s|TK-AE|YT-AE|GPT⁺"
+    name: "\U0001F1E6\U0001F1EAAE_1|2.3MB/s|YT-AE|GPT⁺"
     network: tcp
     port: 443
     server: 89.31.120.192
@@ -277,46 +78,12 @@ proxies:
     ws-headers:
       Host: 89.31.120.192
     ws-path: /
-  - name: "\U0001F1E9\U0001F1EADE_4|8.6MB/s|17%|TK-DE|YT-US|GPT⁺"
-    network: ws
-    port: 80
-    server: tgju.org
-    type: vless
-    udp: true
-    uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
-    ws-opts:
-      headers:
-        Host: SeRvER02.VtNEt.InFO
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: /
-    xudp: true
-    servername: SeRvER02.VtNEt.InFO
-  - name: "\U0001F1E9\U0001F1EADE_5|13.3MB/s|17%|TK-DE|YT-US|GPT⁺"
-    network: ws
-    port: 80
-    server: tgju.org
-    type: vless
-    udp: true
-    uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
-    ws-opts:
-      headers:
-        Host: SeRvER07.VtNEt.InFO
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: SeRvER07.VtNEt.InFO
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_15|4.0MB/s|TK-US|YT-CN|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_3|3.4MB/s|TK-US|YT-CN|GPT⁺"
     port: 37872
     protocol: udp
     server: 108.181.24.77
@@ -324,85 +91,11 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - name: "\U0001F1F9\U0001F1FCTW_1|5.6MB/s|TK-TW|YT-TW|GPT⁺"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_16|20.1MB/s|7%|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 443
-    server: digitalocean.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 60882caa-4e74-42a2-be70-220755fc1551
-    ws-opts:
-      headers:
-        Host: rayan-olala.parvaneh.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: rayan-olala.parvaneh.dpdns.org
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5JP_1|2.9MB/s|0%|TK-JP|YT-CN|GPT⁺"
-    password: 70a0b8103356
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: jp5v1.lingjfjkm002.com
-      mode: websocket
-      mux: true
-      path: /bezradrqccl
-      skip-cert-verify: false
-      tls: true
-    port: 636
-    server: 137.220.142.139
-    tfo: false
-    type: ss
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|2.8MB/s|12%|TK-FI|YT-US|GPT⁺"
-    network: ws
-    port: 2087
-    server: www.researchgate.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
-    ws-opts:
-      headers:
-        Host: interimrita.shividpolo.store
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
-      path: /downloader
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: interimrita.shividpolo.store
-  - name: "\U0001F1F3\U0001F1F1NL_3|3.6MB/s|0%|TK-NL|YT-NL|GPT⁺"
-    obfs: salamander
-    obfs-password: Telegram-->@Ln2Ray
-    password: Telegram-->@Ln2Ray
-    port: 45000
-    server: gavazn.lnmarketplace.net
-    skip-cert-verify: false
-    sni: gavazn.55994421.xyz
-    type: hysteria2
   - alpn:
       - ''
     alterId: 0
     cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_6|8.4MB/s|0%|TK-DE|YT-US|GPT⁺"
+    name: "\U0001F1E9\U0001F1EADE_3|8.3MB/s|0%|TK-DE|YT-US|GPT⁺"
     network: ws
     port: 443
     server: npmjs.com
@@ -417,55 +110,6 @@ proxies:
       path: /
     xudp: true
     servername: Q4.19kAlA.co
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_4|8.6MB/s|0%|TK-NL|YT-US|GPT⁺"
-    network: ws
-    port: 8443
-    server: 104.26.6.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: turboo-server
-    ws-opts:
-      headers:
-        Host: telegram.turbooo-server.com
-      path: /ed=256
-    servername: telegram.turbooo-server.com
-  - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_17|70.4MB/s|26%|TK-US|YT-US"
-    password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    port: 1743
-    server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-    sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-    type: hysteria2
-    udp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_5|9.2MB/s|0%|TK-NL|YT-US|GPT⁺"
-    network: ws
-    port: 8443
-    server: ip1-cloudflare.cimport.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: turboo-server
-    ws-opts:
-      headers:
-        Host: telegram.turbooo-server.com
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /ed=256
-    xudp: true
-    servername: telegram.turbooo-server.com
   - cipher: aes-256-cfb
     name: "\U0001F1F2\U0001F1E9MD_1|4.5MB/s|0%|TK-MD|YT-CN|GPT⁺"
     password: f8f7aCzcPKbsF8p3
@@ -474,7 +118,7 @@ proxies:
     type: ss
     udp: true
   - client-fingerprint: firefox
-    name: "\U0001F1FB\U0001F1F3VN_1|4.4MB/s|TK-VN|YT-RU|GPT⁺"
+    name: "\U0001F1FB\U0001F1F3VN_1|4.6MB/s|TK-VN|YT-RU|GPT⁺"
     network: tcp
     port: 34045
     reality-opts:
@@ -485,26 +129,44 @@ proxies:
     type: vless
     uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
     servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1086
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|4.7MB/s|26%|TK-FR|YT-FR|GPT⁺"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
+  - name: "\U0001F1FA\U0001F1F8US_4|6.0MB/s|0%|TK-US|YT-US|GPT⁺"
+    network: ws
+    port: 2086
+    server: cloudflare.182682.xyz
+    type: vless
+    udp: true
+    uuid: f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45
+    ws-opts:
+      headers:
+        Host: free.naichachong.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/46.0.2490.71 Safari/537.36
+      path: /TG@naichachong
+    xudp: true
+    servername: free.naichachong.top
+  - name: "\U0001F1E9\U0001F1EADE_4|8.0MB/s|17%|TK-DE|YT-US|GPT⁺"
+    network: ws
+    port: 80
+    server: tgju.org
+    type: vless
+    udp: true
+    uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
+    ws-opts:
+      headers:
+        Host: SeRvER02.VtNEt.InFO
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: SeRvER02.VtNEt.InFO
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_6|11.7MB/s|28%|TK-NL|YT-NL|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_2|2.7MB/s|28%|TK-NL|YT-NL|GPT⁺"
     network: ws
     port: 443
     server: 104.21.6.115
@@ -521,33 +183,30 @@ proxies:
       path: /random
     xudp: true
     servername: avid.gorbe.store
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_2|5.6MB/s|12%|TK-FI|YT-US|GPT⁺"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_5|2.3MB/s|4%|TK-US|YT-US|GPT⁺"
     network: ws
     port: 443
-    server: 172.67.184.242
+    server: 104.18.13.145
     tls: true
     type: vless
     udp: true
-    uuid: 933e8733-1c42-4f13-93a0-2472f2633d8e
+    uuid: f19ed531-81cb-433e-8746-1a69e009f9df
     ws-opts:
       headers:
-        Host: amphetamine.shividpolo.site
+        Host: usa.rtot.me
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-      path: /downloader.php
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /bing
     xudp: true
-    servername: amphetamine.shividpolo.site
+    servername: usa.rtot.me
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F2AM_1|10.3MB/s|0%|TK-NL|YT-NL|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_3|3.2MB/s|28%|TK-NL|YT-NL|GPT"
     network: ws
     port: 443
     server: 172.67.134.196
@@ -564,6 +223,37 @@ proxies:
       path: /random
     xudp: true
     servername: avid.gorbe.store
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_1|4.5MB/s|2%|TK-GB|YT-US|GPT⁺"
+    network: ws
+    port: 8443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+    ws-opts:
+      headers:
+        Host: lease-20.access.name.ng
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: lease-20.access.name.ng
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_6|4.2MB/s|TK-US|YT-US|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 63015
+    server: 108.181.5.130
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
