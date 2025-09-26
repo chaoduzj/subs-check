@@ -2,7 +2,7 @@ name: Subs Check
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,10 +21,6 @@ jobs:
         run: |
           go build -o ./bin/subs-check ./cmd/once/once.go  
           ./bin/subs-check -f ./config/config.yaml
-
-      - name: Debug /tmp content
-        run: |
-            ls ./
 
       - name: Commit and Push output
         run: |
