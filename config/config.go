@@ -54,9 +54,11 @@ type Config struct {
 	Platforms            []string `yaml:"platforms"`
 	SuccessLimit         int32    `yaml:"success-limit"`
 	NodePrefix           string   `yaml:"node-prefix"`
+	NodeType             []string `yaml:"node-type"`
 	EnableWebUI          bool     `yaml:"enable-web-ui"`
 	APIKey               string   `yaml:"api-key"`
 	GithubProxy          string   `yaml:"github-proxy"`
+	Proxy                string   `yaml:"proxy"`
 	CallbackScript       string   `yaml:"callback-script"`
 }
 
