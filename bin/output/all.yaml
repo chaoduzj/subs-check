@@ -1,5 +1,30 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1|3.7MB/s|TK-US|YT-US|GPT⁺"
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_1|12.1MB/s|TK-CA|YT-CA|GPT⁺"
+      obfs: plain
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      protocol: origin
+      server: 79.127.233.170
+      type: ssr
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EB\U0001F1F7FR_1|13.6MB/s|TK-FR"
+      network: ws
+      port: 443
+      server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+      servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+      ws-opts:
+        headers:
+            HOST: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+        path: /azumase.ren
+    - name: "\U0001F1FA\U0001F1F8US_1|5.5MB/s|TK-US|YT-US|GPT⁺"
       network: ws
       port: 2096
       server: 188.42.145.253
@@ -13,7 +38,7 @@ proxies:
         headers:
             Host: gaosir.unfeeling.sbs
         path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US_2|9.4MB/s|TK-US|YT-US|GPT⁺"
+    - name: "\U0001F1FA\U0001F1F8US_2|4.0MB/s|TK-US|YT-US|GPT⁺"
       network: ws
       port: 2096
       server: 104.19.50.238
@@ -27,100 +52,102 @@ proxies:
         headers:
             Host: gaosir.unfeeling.sbs
         path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US_3|11.5MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: 2096
-      server: 195.13.45.253
-      servername: gaosir.unfeeling.sbs
+    - name: "\U0001F1FA\U0001F1F8US_3|10.8MB/s|TK-US|YT-US|GPT⁺"
+      password: kHGhcI9rmL
+      port: 19846
+      server: 38.180.192.61
+      type: http
+      username: PAdt6DFTfi
+    - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_4|6.4MB/s|TK-US|YT-US|GPT⁺"
+      password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+      port: 1743
+      server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /x @节点狂魔
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_1|11.2MB/s|TK-CA|YT-CA|GPT⁺"
-      obfs: plain
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      protocol: origin
-      server: 79.127.233.170
-      type: ssr
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
-      password: BxceQaOe
-      port: "443"
-      server: 58.152.53.3
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_2|4.5MB/s|YT-HK|GPT⁺"
+      type: hysteria2
+    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5|2.5MB/s|TK-US|YT-US|GPT⁺"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
+      port: 1743
+      server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|2.4MB/s|YT-HK"
       network: ws
-      port: "18622"
-      server: 210.6.207.42
-      servername: gaosir.unfeeling.sbs
-      tls: true
+      port: 23989
+      server: 43.154.231.72
+      tls: false
       type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      uuid: 6082f5df-1038-4f30-9fb0-4f16038dc1e2
       ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: X@节点狂魔/?ed=2560
-      xudp: true
+        path: /
+    - name: "\U0001F1F8\U0001F1ECSG_1|3.8MB/s|TK-SG|YT-CN|GPT⁺"
+      password: 1nLWx0UVnJ
+      port: 52302
+      server: 164.152.167.94
+      type: http
+      username: 7waHp6NRjR
+    - name: "\U0001F1FA\U0001F1F8US_6|7.9MB/s|TK-US|YT-US|GPT⁺"
+      password: 7RmEtd
+      port: 23916
+      server: 38.244.54.62
+      type: http
+      username: kZXMC3Z1
+    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s|TK-US|YT-US|GPT⁺"
+      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      port: 1743
+      ports: 20000-50000
+      server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_8|3.1MB/s|TK-US|YT-US|GPT⁺"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 1743
+      server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
     - alterId: 0
       cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EB\U0001F1F7FR_1|10.8MB/s|TK-FR|YT-FR|GPT⁺"
+      name: "\U0001F1ED\U0001F1F0HK_2|3.9MB/s|YT-HK"
+      network: none
+      port: 2998
+      server: 47.83.240.134
+      tls: false
+      type: vmess
+      uuid: 661638ea-954a-4950-a7e8-b3122b516856
+    - name: "\U0001F1EF\U0001F1F5JP_1|8.5MB/s|TK-JP|YT-JP|GPT⁺"
+      password: IG052u6nut
+      port: 36712
+      server: 54.64.93.1
+      type: http
+      username: YQiPPXC1vZ
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_1|7.3MB/s|TK-DE|YT-DE|GPT⁺"
       network: ws
       port: 443
-      server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-      servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+      server: net2026cd.zanddynastyofpersia.org
+      servername: net2026cd.zanddynastyofpersia.org
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-      ws-opts:
-        headers:
-            HOST: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-        path: /azumase.ren
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6CA_2|2.8MB/s|TK-CA|YT-CA|GPT⁺"
-      network: ws
-      port: 80
-      server: 51.79.102.253
-      skip-cert-verify: true
-      type: vmess
-      uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-      ws-opts:
-        path: /IOebhLMhl1CTbFHbL95myfRX2
-    - name: "\U0001F1ED\U0001F1F0HK_3|4.4MB/s|YT-HK|GPT⁺"
-      network: ws
-      port: 443
-      server: 202.85.53.74
-      servername: gaosir.unfeeling.sbs
-      skip-cert-verify: false
+      tfo: true
       tls: true
       type: vless
       udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
       ws-opts:
         headers:
-            Host: gaosir.unfeeling.sbs
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+            Host: net2026cd.zanddynastyofpersia.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /eJsVXFVZ6iavNx1EFxOyH861WH
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_4|6.6MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_9|12.9MB/s|TK-US|YT-US|GPT"
       network: ws
       port: "2096"
       server: 5.182.85.253
@@ -132,12 +159,21 @@ proxies:
       ws-opts:
         headers:
             Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
         path: /telegram@节点狂魔/
       xudp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|5.4MB/s|TK-TW|YT-TW|GPT⁺"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_1|3.1MB/s|TK-KR|YT-KR|GPT⁺"
+      name: "\U0001F1F0\U0001F1F7KR_1|2.3MB/s|TK-KR"
       network: ws
       port: "443"
       server: 130.162.130.105
@@ -149,14 +185,31 @@ proxies:
       ws-opts:
         headers:
             Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /Telegram@freecodes/?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_4|4.9MB/s|YT-HK|GPT⁺"
+      name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s|TK-JP|YT-JP"
       network: ws
-      port: "47790"
+      port: "443"
+      server: 153.121.45.101
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /freecodes/
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_3|7.0MB/s|YT-HK|GPT"
+      network: ws
+      port: "35951"
       server: 36.50.90.241
       servername: gaosir.unfeeling.sbs
       tls: true
@@ -166,15 +219,15 @@ proxies:
       ws-opts:
         headers:
             Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /telegram@freecodes/?ed=2560
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: X@节点狂魔/?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s|YT-KR|GPT⁺"
+      name: "\U0001F1F9\U0001F1FCTW_2|3.3MB/s|YT-TW|GPT"
       network: ws
-      port: "10041"
-      server: 211.197.161.123
+      port: "81"
+      server: 210.61.97.241
       servername: gaosir.unfeeling.sbs
       tls: true
       type: vless
@@ -183,24 +236,12 @@ proxies:
       ws-opts:
         headers:
             Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /freecodes/
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+        path: /telegram@节点狂魔/?ed=2560
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_5|16.0MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: c232f411-96b5-4b07-b2f7-66a434725ffb
-      port: "23892"
-      server: 38.45.89.97
-      skip-cert-verify: true
-      sni: fus02.mistea.top
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_5|7.5MB/s|YT-US"
+      name: "\U0001F1ED\U0001F1F0HK_4|5.2MB/s|YT-US"
       obfs: ""
       obfs-password: ""
       password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
@@ -212,31 +253,31 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_6|6.4MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1EC\U0001F1E7GB_1|4.0MB/s|TK-GB|YT-US|GPT⁺"
+      obfs: salamander
+      obfs-password: khameniiko@smad@ret
+      password: YwuvGJk36B
+      port: "2083"
+      server: 81.168.83.89
+      skip-cert-verify: true
+      sni: kotlet.arshiacomplus.dpdns.org
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_10|3.8MB/s|TK-US|YT-US|GPT⁺"
       obfs: ""
       obfs-password: ""
       password: c232f411-96b5-4b07-b2f7-66a434725ffb
-      port: "23891"
-      server: 108.165.213.197
+      port: "23892"
+      server: 38.45.89.97
       skip-cert-verify: true
-      sni: fus01.mistea.top
+      sni: fus02.mistea.top
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F7\U0001F1FARU_1|3.9MB/s|TK-RU"
-      obfs: ""
-      obfs-password: ""
-      password: 571ec94e-613c-430a-93de-397d3d237475
-      port: "22160"
-      server: hsels.huasuan666.top
-      skip-cert-verify: true
-      sni: hsels.huasuan666.top
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_1|4.6MB/s|TK-NL|YT-US|GPT⁺"
+      name: "\U0001F1F3\U0001F1F1NL_1|4.5MB/s|TK-NL|YT-US|GPT⁺"
       obfs: ""
       obfs-password: ""
       password: c232f411-96b5-4b07-b2f7-66a434725ffb
@@ -246,422 +287,319 @@ proxies:
       sni: hl01.mistea.top
       type: hysteria2
       up: ""
-    - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7|4.7MB/s|TK-US|YT-US|GPT⁺"
-      password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      port: 1743
-      server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 712bdc36-24be-11ee-be53-f23c9313b177
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8|7.3MB/s|TK-US|YT-US|GPT⁺"
-      password: 712bdc36-24be-11ee-be53-f23c9313b177
-      port: 1743
-      ports: 20000-50000
-      server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_9|4.4MB/s|TK-US|YT-US|GPT⁺"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1743
-      server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10|7.3MB/s|TK-US|YT-US|GPT⁺"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: 1743
-      ports: 20000-50000
-      server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_11|5.9MB/s|TK-US|YT-US|GPT⁺"
-      password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-      port: 1743
-      server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_6|6.3MB/s|YT-HK"
-      network: none
-      port: 15160
-      server: 8.218.120.209
-      tls: false
-      type: vmess
-      uuid: 540a9fd9-9dc8-434f-c971-a10e9befd7fa
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_1|7.4MB/s|YT-TW|GPT⁺"
-      network: ws
-      port: 54693
-      server: 103.127.218.91
-      tls: false
-      type: vmess
-      uuid: 1cef03ad-6343-408c-8121-cbd1fda2ee9d
-      ws-opts:
-        path: /1cef03ad
-    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_12|3.0MB/s|TK-US|YT-US|GPT⁺"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: 6a9773b0-t3bpc0-t3cj5q-d6ar.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5JP_1|6.1MB/s|TK-JP|YT-JP|GPT⁺"
-      password: IG052u6nut
-      port: 36712
-      server: 54.64.93.1
-      type: http
-      username: YQiPPXC1vZ
-    - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13|2.7MB/s|TK-US|YT-US|GPT⁺"
-      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      port: 1743
-      server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F1\U0001F1F9LT_1|7.7MB/s|TK-LT|GPT⁺"
-      network: none
-      port: 19365
-      server: 2.59.62.63
-      tls: false
-      type: vmess
-      uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_1|3.8MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 41150
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 5c503b6f-2a07-4168-84f8-839e12f24231
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_2|3.7MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 57540
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 8155e379-745b-409b-9cfe-74c4aee4c078
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_3|3.2MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 43158
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 63a77789-8d8f-46f0-b00a-7ef1dbdea6f1
-    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14|3.3MB/s|TK-US|YT-US|GPT⁺"
-      password: 1b609740-eec2-11ef-8543-f23c93136cb3
-      port: 1743
-      server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15|2.1MB/s|TK-US|YT-US|GPT⁺"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16|4.4MB/s|TK-US|YT-US|GPT⁺"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: 1743
-      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17|2.9MB/s|TK-US|YT-US|GPT⁺"
-      password: 1b609740-eec2-11ef-8543-f23c93136cb3
-      port: 1743
-      server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_18|4.3MB/s|TK-US|YT-US|GPT⁺"
-      password: kHGhcI9rmL
-      port: 19846
-      server: 38.180.192.61
-      type: http
-      username: PAdt6DFTfi
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_19|3.2MB/s|TK-US|YT-US|GPT⁺"
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_11|11.4MB/s|TK-US|YT-US|GPT⁺"
       network: ws
-      port: 2096
-      server: wangcai22.cloudflare.182682.xyz
+      port: "2096"
+      server: wangcai252.cloudflare.182682.xyz
       servername: gaosir.unfeeling.sbs
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_20|83.7MB/s|TK-US|YT-SG|GPT⁺"
-      network: ws
-      port: 443
-      server: 75.102.51.220
-      servername: ustc.dysenv2ray.top
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: be2d41c0-50d5-49f8-d309-f6fd923063f7
-      ws-opts:
-        path: /ustc_dysen_20206
-    - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_21|28.5MB/s|TK-US|YT-US|GPT⁺"
-      password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      port: 1743
-      server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 06c625ea-5902-11ee-9e87-f23c9313b177
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_22|23.8MB/s|TK-US|YT-US|GPT⁺"
-      password: 06c625ea-5902-11ee-9e87-f23c9313b177
-      port: 1743
-      server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_1|6.0MB/s|TK-DE|YT-DE|GPT"
-      password: amazonskr05
-      port: 443
-      server: 3.79.117.45
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_7|6.4MB/s|YT-HK"
-      network: none
-      port: 42994
-      server: 8.210.215.228
-      tls: false
-      type: vmess
-      uuid: 4d4697fe-43eb-4649-dcdc-191a3f9a32e4
-    - cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_23|3.3MB/s|TK-US|YT-US|GPT⁺"
-      network: none
-      port: 51497
-      server: 216.133.148.232
-      tls: false
-      type: vless
-      uuid: 6bab29a5-8c22-499c-eb45-996aa68cc9fc
-    - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_24|73.5MB/s|TK-US|YT-US|GPT⁺"
-      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      port: 1743
-      server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_25|36.1MB/s|TK-US|YT-US|GPT⁺"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      ports: 20000-50000
-      server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_26|72.2MB/s|TK-US|YT-US|GPT⁺"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      skip-cert-verify: false
-      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_8|2.3MB/s|YT-HK"
-      network: none
-      port: 45978
-      server: 45.207.223.54
-      tls: false
-      type: vmess
-      uuid: da9d831a-f804-4adc-d1a4-4d5bf8237bce
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_3|11.0MB/s|TK-CA|YT-CA|GPT⁺"
-      password: amazonskr05
-      port: 443
-      server: 35.183.43.124
-      type: ss
-    - auth: 712bdc36-24be-11ee-be53-f23c9313b177
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_27|57.8MB/s|TK-US|YT-US|GPT⁺"
-      password: 712bdc36-24be-11ee-be53-f23c9313b177
-      port: 1743
-      server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_4|2.9MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 30681
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: e2612ec7-d25a-41a7-c523-0ec8dffc75a9
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_5|4.0MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 54442
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: c321f137-0325-4d5b-c304-908cf148f56c
-    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_28|29.1MB/s|TK-US|YT-US|GPT⁺"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: 1743
-      server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_29|30.4MB/s|TK-US|YT-US|GPT⁺"
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: 1743
-      server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_6|4.6MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 57879
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 2357620b-a3ad-451e-ced7-3be649b0a38c
-    - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_30|15.4MB/s|TK-US|YT-US|GPT⁺"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_31|6.4MB/s|YT-US|GPT⁺"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
       tls: true
       type: vless
       udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-      ws-opts:
-        headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_32|6.9MB/s|TK-US|YT-US|GPT⁺"
-      network: none
-      port: 37267
-      server: 47.253.185.243
-      tls: false
-      type: vmess
-      uuid: 4948cb85-668a-420e-d109-5d4b3aabe54c
-    - name: "\U0001F1F8\U0001F1ECSG_7|3.9MB/s|TK-SG|YT-CN|GPT⁺"
-      password: 1nLWx0UVnJ
-      port: 52302
-      server: 164.152.167.94
-      type: http
-      username: 7waHp6NRjR
-    - name: "\U0001F1FA\U0001F1F8US_33|3.7MB/s|TK-US|YT-US|GPT⁺"
-      password: 7RmEtd
-      port: 23916
-      server: 38.244.54.62
-      type: http
-      username: kZXMC3Z1
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s|TK-JP|YT-JP|GPT⁺"
-      network: ws
-      port: 443
-      server: 158.101.145.82
-      servername: gaosir.unfeeling.sbs
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
       uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
       ws-opts:
         headers:
             Host: gaosir.unfeeling.sbs
-        path: /X@节点狂魔/
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_8|3.6MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 49131
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 2bb542f9-6e40-401f-b99d-2bb32f739714
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_9|5.9MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 30183
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: e10bd225-b2e3-4e23-9732-e7da9cd6b995
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_10|3.4MB/s|YT-SG|GPT⁺"
-      network: none
-      port: 23601
-      server: 66.42.63.36
-      tls: false
-      type: vmess
-      uuid: 996ce5de-4dd5-4ac6-bff7-765a5e506b59
-    - auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_34|2.2MB/s|TK-US|YT-US|GPT⁺"
-      password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      port: 1743
-      server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-      skip-cert-verify: false
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_12|2.2MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: wangcai254.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_13|13.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: wangcai12.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_14|7.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: wangcai255.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_15|7.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: wangcai7.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_16|4.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: wangcai248.cloudflare.182682.xyz
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_3|2.2MB/s|TK-JP|YT-JP|GPT⁺"
+      network: ws
+      port: "19842"
+      server: 121.85.55.59
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /telegram@节点狂魔/
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_4|6.8MB/s|TK-JP|YT-JP|GPT⁺"
+      network: ws
+      port: "8443"
+      server: 172.237.11.207
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /freecodes/
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_17|10.0MB/s|TK-US|YT-US|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+      port: "2056"
+      server: lsj3.mangshe.xyz
+      skip-cert-verify: true
+      sni: lsj3.mangshe.xyz
       type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_5|4.8MB/s|TK-JP|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 172.105.209.25
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /Telegram@freecodes/
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_5|4.1MB/s|YT-HK|GPT⁺"
+      network: ws
+      port: "443"
+      server: 217.60.248.66
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_18|69.9MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: acxxrp.460110.xyz
+      servername: vless.ghp.cloudns.biz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 670d1cd0-7097-416c-a5da-7936af95cfac
+      ws-opts:
+        headers:
+            Host: vless.ghp.cloudns.biz
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /?mode=auto
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_6|4.6MB/s|TK-US|YT-JP|GPT⁺"
+      network: ws
+      port: "443"
+      server: 158.101.80.84
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/?ed=2560"
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_6|4.7MB/s|YT-HK|GPT⁺"
+      network: ws
+      port: "8080"
+      server: 141.11.148.60
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
+        path: /Telegram@freecodes/?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F0\U0001F1F7KR_2|2.1MB/s|TK-KR|YT-KR|GPT⁺"
+      network: ws
+      port: "12576"
+      server: 183.101.243.99
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /x@节点狂魔/
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_7|4.3MB/s|YT-US"
+      obfs: ""
+      obfs-password: ""
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: "22153"
+      server: 103.136.150.23
+      skip-cert-verify: true
+      sni: hsxg.huasuan666.top
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_8|4.3MB/s|YT-HK|GPT⁺"
+      network: ws
+      port: "36619"
+      server: 118.141.64.192
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /telegram@节点狂魔/=ed=2560
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_19|2.8MB/s|TK-US|YT-US|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: c232f411-96b5-4b07-b2f7-66a434725ffb
+      port: "23891"
+      server: 108.165.213.197
+      skip-cert-verify: true
+      sni: fus01.mistea.top
+      type: hysteria2
+      up: ""
     - alpn:
         - h2
       client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_1|7.5MB/s|TK-FI|YT-US|GPT⁺"
+      name: "\U0001F1E9\U0001F1EADE_2|3.7MB/s|TK-DE|YT-US|GPT⁺"
+      network: ws
+      port: 443
+      server: 104.18.41.9
+      servername: matoride2.sabzipolo.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 930e2d97-c3e4-4840-9289-748ae4fde82e
+      ws-opts:
+        headers:
+            Host: matoride2.sabzipolo.site
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /downloader.php?ed=2560
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_1|6.6MB/s|TK-FI|YT-US|GPT⁺"
       network: ws
       port: 443
       server: 172.67.184.242
@@ -677,222 +615,24 @@ proxies:
         path: /downloader.php?ed=2560
       xudp: true
     - alpn:
-        - h2
-      client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_2|3.4MB/s|TK-DE|YT-US|GPT⁺"
-      network: ws
-      port: 443
-      server: 104.18.41.9
-      servername: matoride2.sabzipolo.site
-      tls: true
-      type: vless
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_3|4.5MB/s|TK-KR|YT-CN|GPT⁺"
+      network: tcp
+      port: "443"
+      server: 140.238.2.250
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-      uuid: 930e2d97-c3e4-4840-9289-748ae4fde82e
-      ws-opts:
-        headers:
-            Host: matoride2.sabzipolo.site
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /downloader.php?ed=2560
+      uuid: 41a7089a-040b-4538-8b8d-010902405bde
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_35|26.4MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai250.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_36|14.5MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai254.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_37|2.9MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai248.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_38|21.5MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai93.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_39|2.0MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai252.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_40|5.7MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai12.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_3|2.6MB/s|TK-KR|YT-KR|GPT⁺"
-      network: ws
-      port: "19413"
-      server: 121.165.101.69
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_41|5.6MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "2096"
-      server: wangcai255.cloudflare.182682.xyz
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_42|10.4MB/s|TK-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-      port: "2056"
-      server: lsj3.mangshe.xyz
-      skip-cert-verify: true
-      sni: lsj3.mangshe.xyz
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_9|2.7MB/s|YT-HK|GPT⁺"
-      network: ws
-      port: "12457"
-      server: 223.16.138.113
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: Telegram@freecodes/?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_43|2.4MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "21286"
-      server: 14.36.155.120
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /freecodes/
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_10|4.4MB/s|YT-US"
-      obfs: ""
-      obfs-password: ""
-      password: 571ec94e-613c-430a-93de-397d3d237475
-      port: "22153"
-      server: 103.136.150.23
-      skip-cert-verify: true
-      sni: hsxg.huasuan666.top
-      type: hysteria2
-      up: ""
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_2|8.7MB/s|TK-FR|YT-FR|GPT⁺"
+      name: "\U0001F1EB\U0001F1F7FR_2|11.4MB/s|TK-FR|YT-FR|GPT⁺"
       network: ws
       port: "443"
       server: azerb.net
@@ -906,30 +646,12 @@ proxies:
             Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
         path: /azumase.ren#TM (@AZARBAYJAB1) /TM (@AZARBAYJAB1)/?ed=2560
       xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_3|6.6MB/s|TK-FR|YT-FR|GPT⁺"
-      network: ws
-      port: "443"
-      server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-      ws-opts:
-        headers:
-            Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-        path: /azumase.ren
-      xudp: true
-    - name: "\U0001F1F9\U0001F1FCTW_2|4.6MB/s|TK-TW|YT-TW|GPT⁺"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
+    - name: ❓Other_1|6.8MB/s
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
       type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
+      udp: true
+      username: test
