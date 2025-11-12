@@ -1,9 +1,85 @@
 proxies:
+  - cipher: aes-256-cfb
+    name: "\U0001F1E8\U0001F1E6CA_1|10.6MB/s|TK-CA|YT-CA|GPT⁺"
+    obfs: plain
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    protocol: origin
+    server: 79.127.233.170
+    type: ssr
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: ❓Other_1|2.8MB/s
+    network: ws
+    port: 443
+    server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+    ws-opts:
+      headers:
+        HOST: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+      path: /azumase.ren
+    servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_1|6.8MB/s|TK-NL|YT-US|GPT⁺"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 45.87.175.28
+    type: ss
+  - name: "\U0001F1F9\U0001F1FCTW_1|4.2MB/s|TK-TW|YT-TW|GPT⁺"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s|TK-FR|GPT⁺"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|12.0MB/s|TK-US|YT-US|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    port: 1743
+    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+    skip-cert-verify: false
+    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_2|5.5MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 5355
+    server: 163.172.21.105
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
   - client-fingerprint: safari
     encryption: none
     grpc-opts:
       grpc-service-name: dcfc23920fc8a07991dda30d
-    name: "\U0001F1E8\U0001F1E6CA_1|9.7MB/s|TK-CH|YT-CH|GPT⁺"
+    name: "\U0001F1E8\U0001F1E6CA_2|8.0MB/s|TK-CH|YT-IN|GPT⁺"
     network: grpc
     port: 443
     reality-opts:
@@ -16,69 +92,23 @@ proxies:
     uuid: 7aae7d90-0b37-421e-834a-502ea15f43df
     xudp: true
     servername: www.microsoft.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|TK-US|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    port: 1743
-    server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
+  - name: "\U0001F1ED\U0001F1F0HK_1|4.3MB/s|YT-CN"
+    password: 1b57001bd214304027025a740b6cf1ac
+    port: 443
+    server: 219.76.135.188
     skip-cert-verify: false
-    sni: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s|TK-US|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 712bdc36-24be-11ee-be53-f23c9313b177
-    port: 1743
-    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+    sni: www.nintendogames.net
+    type: trojan
+  - name: "\U0001F1EF\U0001F1F5JP_1|5.3MB/s|TK-JP|YT-JP|GPT⁺"
+    password: 1b57001bd214304027025a740b6cf1ac
+    port: 4095
+    server: 160.16.89.176
     skip-cert-verify: false
-    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-    type: hysteria2
-    up: ''
+    sni: www.nintendogames.net
+    type: trojan
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    port: 1743
-    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-    skip-cert-verify: false
-    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    port: 1743
-    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    skip-cert-verify: false
-    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|2.9MB/s|TK-US|YT-US|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    port: 1743
-    server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-    skip-cert-verify: false
-    sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s|TK-US|YT-US|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_2|4.3MB/s|TK-US|YT-US|GPT⁺"
     obfs: ''
     obfs-password: ''
     password: 6286105c-fb6d-11ef-be96-f23c93136cb3
@@ -88,22 +118,90 @@ proxies:
     sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
     type: hysteria2
     up: ''
+  - name: "\U0001F1FA\U0001F1F8US_3|3.3MB/s|TK-US|YT-US|GPT⁺"
+    password: 1b57001bd214304027025a740b6cf1ac
+    port: 31409
+    server: 160.16.223.205
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - name: "\U0001F1F8\U0001F1ECSG_1|4.7MB/s|TK-SG|YT-SG|GPT⁺"
+    password: BxceQaOe
+    port: 518
+    server: 116.49.237.130
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_4|7.9MB/s|TK-US|YT-US|GPT⁺"
+    network: ws
+    port: 2053
+    server: 104.17.208.73
+    tls: true
+    type: vless
+    udp: true
+    uuid: 685fce2d-cd0d-4b59-94f4-91c95c06257f
+    ws-opts:
+      headers:
+        Host: mahb.edu.bolo.fyi
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: mahb.edu.bolo.fyi
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1EA\U0001F1F8ES_1|5.4MB/s|TK-ES|YT-ES|GPT⁺"
+    network: tcp
+    port: 27092
+    server: 208.76.223.218
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_3|6.3MB/s|TK-FR|YT-FR|GPT⁺"
+    network: ws
+    port: 443
+    server: 172.64.144.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+    ws-opts:
+      headers:
+        Host: ayanamirei.11160321.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: '/http://37.187.124.25:8187/'
+    xudp: true
+    servername: ayanamirei.11160321.xyz
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_7|2.9MB/s|YT-US|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_2|4.5MB/s|TK-NL|YT-US|GPT⁺"
     obfs: ''
     obfs-password: ''
-    password: 06c625ea-5902-11ee-9e87-f23c9313b177
-    port: 1743
-    server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-    skip-cert-verify: false
-    sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    port: 23899
+    server: 193.142.59.41
+    skip-cert-verify: true
+    sni: hl01.mistea.top
     type: hysteria2
     up: ''
   - alpn:
       - h2
     client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|9.3MB/s|TK-FI|YT-US|GPT⁺"
+    name: "\U0001F1EB\U0001F1EEFI_1|8.1MB/s|TK-FI|YT-US|GPT⁺"
     network: ws
     port: 443
     server: 172.67.184.242
@@ -122,280 +220,6 @@ proxies:
       max-early-data: 2560
     xudp: true
     servername: amphetamine.shividpolo.site
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_8|27.5MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2087
-    server: dogechain.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_9|48.0MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2053
-    server: cf.090227.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_10|31.7MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2083
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_11|35.9MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 8443
-    server: www.shopify.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_12|9.0MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 2096
-    server: store.ubi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/44.0.2403.157 Safari/537.36
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_13|9.2MB/s|TK-US|YT-US|GPT⁺"
-    network: ws
-    port: 443
-    server: mfa.gov.ua
-    tls: true
-    type: vless
-    udp: true
-    uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-    ws-opts:
-      headers:
-        Host: cm2-bpg.ggff.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: '/proxyip=tw.ttzxw.cf:443'
-    xudp: true
-    servername: cm2-bpg.ggff.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_14|21.7MB/s|TK-US|YT-US"
-    network: ws
-    password: trojan
-    port: 443
-    server: ip.sb
-    skip-cert-verify: false
-    sni: nixian.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: >-
-        /?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|4.8MB/s|YT-HK"
-    password: 1b57001bd214304027025a740b6cf1ac
-    port: 443
-    server: 58.152.110.25
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F3IN_1|4.8MB/s|YT-IN|GPT⁺"
-    network: ws
-    port: 443
-    server: 1762659141.bilibiliapp.cn
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-    ws-opts:
-      headers:
-        Host: o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua
-      path: /
-    xudp: true
-    servername: o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua
-  - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_15|2.7MB/s|TK-US|YT-US|GPT⁺"
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    port: 1743
-    server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_16|2.9MB/s|TK-US|YT-US|GPT⁺"
-    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    port: 1743
-    server: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    sni: 360311d5-t4v9c0-tcm6ys-deip.la.shifen.uk
-  - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_17|2.7MB/s|TK-US|YT-US|GPT⁺"
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    port: 1743
-    server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|2.3MB/s|YT-US|GPT⁺"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.215
-    type: ss
-    udp: true
-  - name: "\U0001F1F0\U0001F1F7KR_1|6.4MB/s|TK-KR|YT-KR|GPT⁺"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - alterId: 0
-    cipher: auto
-    http-opts:
-      method: GET
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1ECSG_1|4.5MB/s|TK-SG|YT-SG|GPT⁺"
-    network: http
-    port: 53784
-    server: 18.143.248.157
-    tls: false
-    type: vmess
-    uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
-  - cipher: aes-256-cfb
-    name: "\U0001F1E8\U0001F1E6CA_2|11.4MB/s|TK-CA|YT-CA|GPT⁺"
-    obfs: plain
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    protocol: origin
-    server: 79.127.233.170
-    type: ssr
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|6.4MB/s|TK-NL|YT-US|GPT⁺"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 45.87.175.28
-    type: ss
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: ❓Other_1|4.8MB/s
-    network: ws
-    port: 443
-    server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-    ws-opts:
-      headers:
-        HOST: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-      path: /azumase.ren
-    servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  - cipher: auto
-    name: "\U0001F1EE\U0001F1F3IN_2|3.8MB/s|YT-IN|GPT⁺"
-    network: ws
-    port: 443
-    server: 13.204.17.137
-    tls: false
-    type: vless
-    uuid: 6eef4a01-455b-472f-a337-9983956cad92
-    ws-opts:
-      host: www.microsoft.com
-      path: /news
-  - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_18|2.2MB/s|YT-US"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 1743
-    server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-  - name: "\U0001F1F9\U0001F1FCTW_1|4.0MB/s|TK-TW|YT-TW|GPT⁺"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
