@@ -1,314 +1,23 @@
 proxies:
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s|TK-US|YT-US|GPT⁺"
-      password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-      port: 443
-      server: 23.95.75.146
+      name: "\U0001F1F3\U0001F1F1NL_1|6.7MB/s|TK-NL|YT-US|GPT⁺"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.87.175.28
       type: ss
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_2|7.4MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: "1743"
-      server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_3|4.2MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: "1743"
-      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EE\U0001F1F3IN_1|5.3MB/s|YT-IN|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: "30102"
-      server: 144.24.101.176
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_1|3.9MB/s|TK-GB|YT-GB|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: "30102"
-      server: 91.149.238.71
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|6.1MB/s|YT-US"
-      obfs: ""
-      obfs-password: ""
-      password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-      port: "2056"
-      server: xg1.mangshe.xyz
-      skip-cert-verify: true
-      sni: xg1.mangshe.xyz
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E6\U0001F1EAAE_1|2.1MB/s|TK-AE|YT-AE|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: "30102"
-      server: 193.123.76.141
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s|TK-NL|YT-NL|GPT"
-      obfs: salamander
-      obfs-password: GdQ4bgvT8RFwuWi2
-      password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-      port: "30205"
-      server: net2025.afsharidempire.uk
-      skip-cert-verify: true
-      sni: net2025.afsharidempire.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_2|4.7MB/s|TK-NL|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: c232f411-96b5-4b07-b2f7-66a434725ffb
-      port: "23899"
-      server: 193.142.59.41
-      skip-cert-verify: true
-      sni: hl01.mistea.top
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_2|6.3MB/s|YT-HK"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "443"
-      server: 58.152.110.216
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|2.9MB/s|TK-JP|YT-CN|GPT⁺"
-      password: BxceQaOe
-      port: "8112"
-      server: 35.77.94.201
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|4.1MB/s|TK-JP|YT-CN|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "3169"
-      server: 153.121.65.107
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|3.7MB/s|TK-SG|YT-SG|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "127"
-      server: 153.121.65.107
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_2|2.2MB/s|TK-SG|YT-SG|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "127"
-      server: 160.16.151.196
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4|5.0MB/s|YT-US|GPT⁺"
-      password: BxceQaOe
-      port: "2173"
-      server: 18.163.122.76
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|6.9MB/s|TK-KR|YT-KR|GPT⁺"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|6.0MB/s|TK-GB|YT-GB|GPT⁺"
-      network: ws
-      port: "443"
-      server: delilah.ns.cloudflare.com
-      servername: 638987378208894304.sentra-amshr.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-      ws-opts:
-        headers:
-            Host: 638987378208894304.sentra-amshr.info
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /cahttingws
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|5.5MB/s|TK-US|YT-US|GPT"
-      network: ws
-      password: d0298536-d670-4045-bbb1-ddd5ea68683e
-      port: "2087"
-      server: 104.25.254.4
-      skip-cert-verify: false
-      sni: azadnet-bdr.pages.dev
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_6|16.3MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "443"
-      server: us8.candyfans.win
-      servername: us8.candyfans.win
-      tls: true
-      type: vless
-      udp: true
-      uuid: 852650c3-8ae5-4b75-8613-02a197a89309
-      ws-opts:
-        headers:
-            Host: us8.candyfans.win
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /zonnws
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_3|5.6MB/s|TK-JP|YT-CN|GPT⁺"
-      password: BxceQaOe
-      port: "1924"
-      server: 160.16.227.93
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_7|6.7MB/s|TK-US|YT-US"
-      network: ws
-      port: "2096"
-      server: 185.148.107.61
-      servername: vless.hubp.de
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12345678-1234-1234-1234-123456789123
-      ws-opts:
-        headers:
-            Host: vless.hubp.de
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /snippets
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_3|5.2MB/s|TK-SG|YT-SG|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "127"
-      server: 153.121.51.29
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_4|6.8MB/s|TK-JP|YT-CN|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "3169"
-      server: 202.181.103.235
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_5|6.5MB/s|TK-JP|YT-CN|GPT⁺"
-      password: 2274c52572e721086f8bd8f88984643c
-      port: "3169"
-      server: 160.16.196.59
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_4|3.3MB/s|TK-SG|YT-SG|GPT⁺"
-      password: BxceQaOe
-      port: "443"
-      server: 38.180.191.251
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8|2.6MB/s|YT-US|GPT⁺"
-      password: BxceQaOe
-      port: "4569"
-      server: us.wyau.cn
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_1|11.3MB/s|TK-CA|YT-CA|GPT⁺"
+      name: "\U0001F1E8\U0001F1E6CA_1|6.9MB/s|TK-CA|YT-CA|GPT⁺"
       obfs: plain
       password: f8f7aCzcPKbsF8p3
       port: 989
       protocol: origin
       server: 79.127.233.170
       type: ssr
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_3|6.5MB/s|TK-NL|YT-US|GPT⁺"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.87.175.28
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1|2.1MB/s|TK-VN|YT-US|GPT"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: "38388"
-      server: 103.186.155.136
-      type: ss
-      udp: true
     - alterId: 0
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: ❓Other_1|4.0MB/s
+      name: "\U0001F1EB\U0001F1F7FR_1|7.9MB/s|TK-FR|YT-FR|GPT⁺"
       network: ws
       port: 443
       server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
@@ -321,16 +30,276 @@ proxies:
         headers:
             HOST: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
         path: /azumase.ren
-    - name: "\U0001F1F8\U0001F1EASE_1|3.1MB/s"
-      network: ws
-      password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-      port: 2053
-      server: 95.182.120.208
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_2|3.8MB/s|TK-NL|YT-RU|GPT⁺"
+      password: o5osZg269v5zHpYjr1xY9s
+      port: 8080
+      server: 151.242.251.137
+      type: ss
+    - name: "\U0001F1E8\U0001F1E6CA_2|2.9MB/s|TK-CA|YT-CA|GPT⁺"
+      password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+      port: 30300
+      server: 40.233.80.237
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1|4.9MB/s|TK-SG|YT-SG|GPT⁺"
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: "5553"
+      server: 202.181.103.246
       skip-cert-verify: false
-      sni: joss.gpj.web.id
+      sni: www.nintendogames.net
       type: trojan
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_1|3.7MB/s|TK-US|YT-US|GPT⁺"
+      password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+      port: "443"
+      server: 23.95.75.146
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|3.5MB/s|TK-US|YT-US|GPT⁺"
+      password: dd2f25b4c70689de8bc0f7fa9d6591cb
+      port: "4210"
+      server: 160.16.131.243
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|3.9MB/s|YT-US|GPT⁺"
+      password: BxceQaOe
+      port: "2173"
+      server: 16.162.87.79
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_1|4.0MB/s|TK-GB|YT-GB|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: "30102"
+      server: 91.149.238.71
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_4|8.4MB/s|TK-US|YT-US|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+      port: "1743"
+      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+      skip-cert-verify: false
+      sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_5|4.0MB/s|TK-US|YT-US|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+      port: "1743"
+      server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1EASE_1|3.0MB/s|TK-SE|GPT"
+      obfs: salamander
+      obfs-password: U1wBrYQyFm
+      password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+      port: "20335"
+      server: 70.34.215.221
+      skip-cert-verify: true
+      sni: drhystuichdfy.samanidempire.org
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1EASE_2|3.2MB/s|TK-SE|GPT⁺"
+      obfs: salamander
+      obfs-password: U1wBrYQyFm
+      password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+      port: "20335"
+      server: drhystuichdfy.samanidempire.org
+      skip-cert-verify: true
+      sni: drhystuichdfy.samanidempire.org
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_3|2.9MB/s|TK-NL|GPT"
+      obfs: salamander
+      obfs-password: GdQ4bgvT8RFwuWi2
+      password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+      port: "30205"
+      server: net2025.afsharidempire.uk
+      skip-cert-verify: true
+      sni: net2025.afsharidempire.uk
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_4|2.2MB/s|GPT"
+      obfs: salamander
+      obfs-password: GdQ4bgvT8RFwuWi2
+      password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+      port: "30205"
+      server: 185.92.220.240
+      skip-cert-verify: true
+      sni: net2025.afsharidempire.uk
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EE\U0001F1F3IN_1|3.9MB/s|YT-IN|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: "30102"
+      server: 144.24.101.176
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1EAAE_1|3.4MB/s|TK-AE|YT-AE|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: "30102"
+      server: 193.123.76.141
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_5|4.8MB/s|TK-NL|YT-US|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: c232f411-96b5-4b07-b2f7-66a434725ffb
+      port: "23899"
+      server: 193.142.59.41
+      skip-cert-verify: true
+      sni: hl01.mistea.top
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_1|4.5MB/s|YT-HK"
+      password: 2274c52572e721086f8bd8f88984643c
+      port: "443"
+      server: 58.152.110.216
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_6|18.4MB/s|TK-US|YT-US"
+      network: ws
+      port: "2096"
+      server: 185.148.107.61
+      servername: vless.hubp.de
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12345678-1234-1234-1234-123456789123
       ws-opts:
         headers:
-            Host: joss.gpj.web.id
-        path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+            Host: vless.hubp.de
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /snippets
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s|YT-CN|GPT⁺"
+      password: BxceQaOe
+      port: "1924"
+      server: 160.16.227.93
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_2|4.5MB/s|YT-JP|GPT"
+      password: 2274c52572e721086f8bd8f88984643c
+      port: "1334"
+      server: 160.16.57.238
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_2|3.8MB/s|YT-SG|GPT⁺"
+      password: BxceQaOe
+      port: "443"
+      server: 38.180.191.251
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_3|3.2MB/s|YT-SG|GPT⁺"
+      password: 2274c52572e721086f8bd8f88984643c
+      port: "127"
+      server: 153.121.51.29
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_7|4.9MB/s|TK-US|YT-US|GPT⁺"
+      password: 2274c52572e721086f8bd8f88984643c
+      port: "4211"
+      server: 160.16.57.238
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_8|4.4MB/s|YT-US|GPT⁺"
+      password: BxceQaOe
+      port: "4569"
+      server: us.wyau.cn
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_1|2.7MB/s|TK-FI|YT-US|GPT"
+      network: ws
+      port: 443
+      server: 172.67.184.242
+      servername: amphetamine.shividpolo.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 933e8733-1c42-4f13-93a0-2472f2633d8e
+      ws-opts:
+        headers:
+            Host: amphetamine.shividpolo.site
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /downloader.php?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_9|3.6MB/s|TK-SG|YT-CA|GPT⁺"
+      password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+      port: 443
+      server: 167.150.100.115
+      type: ss
+      udp: true
