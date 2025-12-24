@@ -1,152 +1,28 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6CA_1|7.7MB/s|TK-CA|YT-CA|GPT⁺"
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 79.127.233.170
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_2|3.4MB/s|TK-CA|YT-CA|GPT⁺"
-      obfs: plain
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      protocol: origin
-      server: 79.127.233.170
-      type: ssr
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FARU_1|4.7MB/s|TK-RU"
-      network: none
-      port: 34895
-      server: 2.56.242.210
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s|GPT⁺"
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s|TK-US|YT-US|GPT⁺"
       network: ws
-      port: 443
-      server: v2ray.codefyinc.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+      password: iwangjie
+      port: "15805"
+      server: 158.101.11.204
+      skip-cert-verify: false
+      sni: nodes.830901.xyz
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: v2ray.codefyinc.com
-        path: /vmessws
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_2|4.1MB/s|TK-US|GPT"
-      network: ws
-      port: 2083
-      server: hgtrojan.zabc.net
-      servername: hgtrojan.zabc.net
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-      ws-opts:
-        headers:
-            HOST: hgtrojan.zabc.net
-        path: /e6395c20
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1|8.6MB/s|TK-NL|YT-US|GPT⁺"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: "8080"
-      server: 45.87.175.174
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1F7BR_1|3.4MB/s|YT-BR|GPT⁺"
-      port: 34045
-      reality-opts:
-        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-        short-id: e8ab71d0
-      server: 167.234.255.2
-      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - client-fingerprint: chrome
-      name: "\U0001F1F2\U0001F1E9MD_1|4.8MB/s|TK-MD|YT-US|GPT⁺"
-      port: 41360
-      reality-opts:
-        public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
-        short-id: 1aab45
-      server: 94.232.247.168
-      servername: yahoo.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /?ed=2560
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_3|6.0MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_2|8.6MB/s|TK-US|YT-US|GPT⁺"
       password: shadowsocks
       port: "443"
       server: 173.244.56.6
       type: ss
       udp: true
-    - name: "\U0001F1F2\U0001F1E9MD_2|2.2MB/s|TK-FR|YT-US|GPT⁺"
-      network: ws
-      port: 443
-      server: 94.131.118.18
-      servername: ads.x5.ru
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 784ac0b2-3837-4889-8ad6-b58259dd1d0f
-      ws-opts:
-        headers:
-            Host: ads.x5.ru
-        path: /kmdznvws
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F2\U0001F1E9MD_3|5.3MB/s|TK-NL|YT-NL|GPT⁺"
-      password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
-      port: "443"
-      server: 178.23.190.238
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s|TK-FR|YT-FR|GPT⁺"
-      obfs: ""
-      port: "26691"
-      protocol: udp
-      server: 62.210.196.68
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 11 Mbps
-    - name: "\U0001F1FA\U0001F1F8US_4|8.7MB/s|TK-US|YT-US|GPT"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1F2\U0001F1FDMX_1|9.4MB/s|TK-MX|YT-MX|GPT⁺"
+      name: "\U0001F1F2\U0001F1FDMX_1|8.5MB/s|TK-MX|YT-MX|GPT⁺"
       network: none
       port: 27502
       server: 216.238.87.47
@@ -156,27 +32,28 @@ proxies:
       udp: true
       uuid: b8155ce4-7e08-4c40-800f-8671312b7124
       xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|3.3MB/s|TK-FI|YT-RU|GPT"
-      port: 443
-      reality-opts:
-        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
-        short-id: b9ceed646f470d2d
-      server: 158.160.197.118
-      servername: ya.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1E9MD_1|5.7MB/s|TK-NL|YT-NL|GPT⁺"
+      password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
+      port: "443"
+      server: 178.23.190.238
+      type: ss
       udp: true
-      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
-    - name: "\U0001F1F3\U0001F1F1NL_2|3.4MB/s|GPT⁺"
-      port: 1080
-      server: 104.248.203.234
-      type: socks5
-      udp: true
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s|TK-FR|YT-FR|GPT⁺"
+      obfs: ""
+      port: "26691"
+      protocol: udp
+      server: 62.210.196.68
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
     - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s|YT-HK"
+      name: "\U0001F1ED\U0001F1F0HK_1|4.3MB/s|YT-HK"
       password: BxceQaOe
       port: "443"
       server: 219.79.214.159
@@ -184,37 +61,305 @@ proxies:
       sni: t.me%2Fripaojiedian
       type: trojan
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F2\U0001F1E9MD_4|3.2MB/s|YT-US"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-      port: "443"
-      server: 194.246.114.101
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|3.7MB/s"
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_3|5.7MB/s|TK-CA|YT-US|GPT⁺"
       network: ws
-      port: "2096"
-      server: support.zoom.us
-      servername: zoom.seaseus.pp.ua
+      port: "443"
+      server: 172.67.189.148
+      servername: www.xaniutw.qzz.io
       tls: true
       type: vless
       udp: true
-      uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: zero.seaseus.pp.ua
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /seaseus
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_6|5.9MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_4|5.7MB/s|TK-US|YT-US|GPT⁺"
       network: ws
       port: "443"
-      server: 104.16.65.1
+      server: 104.16.29.98
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5|3.7MB/s|TK-US|YT-US|GPT"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: freeyx.cloudflare88.eu.org
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_6|2.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.19.173.161
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_7|2.3MB/s|TK-CA|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.25.63.32
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_8|3.5MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.25.249
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_9|2.5MB/s|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.25.127.147
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_10|3.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.1.142
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_11|2.8MB/s|TK-US|YT-US"
+      network: ws
+      port: "2096"
+      server: x.cf.090227.xyz
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_12|4.0MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 108.162.195.59
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_13|10.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.17.253.113
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_14|3.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.67.173.133
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_15|3.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.27.29.22
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_1|5.3MB/s|YT-CA|GPT"
+      network: ws
+      port: "443"
+      server: 104.21.238.247
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_16|2.7MB/s|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.25.127.147
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_17|3.3MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 108.162.195.59
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1E9MD_2|2.5MB/s|GPT⁺"
+      password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
+      port: "443"
+      server: 89.221.225.15
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s|YT-JP|GPT"
+      network: ws
+      port: "443"
+      server: 3.115.3.90
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_18|14.2MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 162.159.235.26
       servername: snippets.kkii.eu.org
       tls: true
       type: vless
@@ -223,15 +368,681 @@ proxies:
       ws-opts:
         headers:
             Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_7|6.3MB/s|TK-US|YT-US"
+      name: "\U0001F1E8\U0001F1E6CA_2|8.3MB/s|YT-CA|GPT"
       network: ws
       port: "443"
-      server: 172.67.79.235
+      server: ali.nonull.pp.ua
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_19|33.0MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.19.49.192
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_2|5.1MB/s|YT-JP|GPT⁺"
+      network: ws
+      port: "443"
+      server: 13.230.34.30
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_20|28.3MB/s|TK-US|YT-US"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 777.ai7777777.xyz
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_21|13.5MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.154.61
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_3|4.6MB/s|YT-JP|GPT⁺"
+      network: ws
+      port: "443"
+      server: 52.68.106.34
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_4|2.4MB/s|YT-JP|GPT⁺"
+      network: ws
+      port: "443"
+      server: 3.114.34.118
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_5|2.7MB/s|YT-JP|GPT⁺"
+      network: ws
+      port: "37390"
+      server: 57.180.50.81
+      servername: xxh.ipipip.im
+      tls: true
+      type: vless
+      udp: true
+      uuid: b52fac66-fd92-47ae-b1f6-332aa1c353d9
+      ws-opts:
+        headers:
+            Host: xxh.ipipip.im
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+        path: /xxhjphome
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_6|3.9MB/s|YT-JP|GPT⁺"
+      network: ws
+      port: "443"
+      server: 3.115.3.90
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_22|31.8MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 172.64.154.30
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_23|10.0MB/s|TK-US|YT-US"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 104.17.167.134
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_24|10.2MB/s|TK-US|YT-US|GPT"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 104.17.162.3
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_25|13.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: hj.xmm1993.top
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_26|30.4MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 104.19.39.97
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_27|20.8MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: download.yunzhongzhuan.com
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_28|30.0MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 104.18.47.154
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2|2.7MB/s|YT-HK"
+      network: ws
+      port: "443"
+      server: n1761214906.wpg27.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
+      ws-opts:
+        headers:
+            Host: n1761214906.wpg27.xyz
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_29|11.2MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: cdn.204910.best
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_30|16.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 172.64.229.205
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_31|11.9MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: nrtcfdns.zone.id
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_32|13.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: hj.xmm1993.top
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_3|2.8MB/s|YT-HK|GPT⁺"
+      network: ws
+      port: "20000"
+      server: 38.55.106.199
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_33|13.7MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 198.41.208.234
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_34|11.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "8443"
+      server: 172.64.154.113
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_35|9.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "8443"
+      server: 172.64.144.51
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_36|15.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.154.30
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_37|11.5MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 104.18.46.36
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_38|15.5MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 172.64.159.203
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_39|12.1MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: download.yunzhongzhuan.com
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_40|16.1MB/s|TK-US|YT-US"
+      network: ws
+      port: "8443"
+      server: 172.64.154.113
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_41|24.4MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "8443"
+      server: 172.64.144.51
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_42|14.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 104.18.47.154
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_43|13.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 172.64.154.61
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_44|4.7MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 104.18.47.154
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_45|11.3MB/s|TK-US|YT-US|GPT"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 104.19.55.205
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_46|29.9MB/s|TK-US|YT-US"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 172.64.229.205
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_47|23.9MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: hj.xmm1993.top
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_48|11.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 104.18.45.192
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_49|10.0MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: download.yunzhongzhuan.com
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_50|9.7MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 172.64.154.30
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_51|12.5MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 104.17.69.244
       servername: snippets.kkii.eu.org
       tls: true
       type: vless
@@ -245,117 +1056,41 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_8|8.6MB/s|TK-US|YT-US"
+      name: "\U0001F1FA\U0001F1F8US_52|16.3MB/s|TK-US|YT-US"
       network: ws
       port: "443"
-      server: 162.159.235.26
-      servername: snippets.kkii.eu.org
+      server: 104.27.29.22
+      servername: www.xaniuhk.qzz.io
       tls: true
       type: vless
       udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-        path: /
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_9|8.1MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_53|13.3MB/s|TK-US|YT-US|GPT⁺"
       network: ws
-      port: "443"
-      server: 104.17.202.10
-      servername: snippets.kkii.eu.org
+      port: "2087"
+      server: 172.64.158.216
+      servername: www.xaniusg1.qzz.io
       tls: true
       type: vless
       udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10|10.9MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 104.19.220.22
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_11|14.1MB/s|TK-US|YT-US"
-      network: ws
-      port: "443"
-      server: nrtcfdns.zone.id
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_12|27.9MB/s|TK-US|YT-US"
-      network: ws
-      port: "443"
-      server: 172.64.229.205
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13|35.6MB/s|TK-US|YT-US"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: cf.130519.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14|2.6MB/s|TK-US|YT-US"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 104.26.1.110
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_15|3.4MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_54|12.7MB/s|TK-US|YT-US"
       network: ws
       port: "443"
       server: 172.64.53.226
@@ -367,139 +1102,11 @@ proxies:
       ws-opts:
         headers:
             Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16|2.3MB/s|TK-US|YT-US"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 777.ai7777777.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17|2.2MB/s|TK-US|YT-US|GPT"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 104.17.167.134
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_18|2.3MB/s|TK-US|YT-US|GPT"
-      network: ws
-      port: "443"
-      server: 108.162.198.185
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
         path: /
       xudp: true
     - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_19|5.0MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "4655"
-      server: 194.113.73.136
-      type: vless
-      udp: true
-      uuid: 2668fdee-331d-4770-8244-d2a4efbf6ef8
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_20|2.5MB/s|TK-US|YT-US|GPT"
-      network: ws
-      port: "443"
-      server: 104.17.69.244
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_21|27.7MB/s|TK-US|YT-US|GPT"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 162.159.128.253
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|3.3MB/s|TK-DE|YT-US|GPT⁺"
-      network: ws
-      port: "80"
-      server: 104.26.6.89
-      type: vless
-      udp: true
-      uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
-      ws-opts:
-        headers:
-            Host: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /?ed
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E8\U0001F1E6CA_3|31.5MB/s|YT-CA|GPT⁺"
-      network: ws
-      port: "80"
-      server: 104.26.6.89
-      servername: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
-      type: vless
-      udp: true
-      uuid: c5b129d7-f133-4b34-a9c6-68c9a8f70248
-      ws-opts:
-        headers:
-            Host: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_22|26.9MB/s|TK-US|YT-US"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 172.64.229.205
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /
-    - encryption: none
-      name: "\U0001F1E8\U0001F1E6CA_4|11.1MB/s|YT-CA|GPT⁺"
+      name: "\U0001F1E8\U0001F1E6CA_3|2.5MB/s|YT-CA|GPT⁺"
       network: ws
       port: "80"
       server: 104.26.6.89
@@ -509,57 +1116,11 @@ proxies:
       ws-opts:
         headers:
             Host: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /?ed
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_23|14.5MB/s|TK-US|YT-US|GPT"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: one.cf.cdn.hyli.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_24|12.9MB/s|TK-US|YT-US|GPT"
-      network: ws
-      port: "443"
-      server: cdn.204910.best
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|8.3MB/s|TK-DE|YT-US|GPT⁺"
-      network: ws
-      port: "80"
-      server: 104.26.6.89
-      servername: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
-      type: vless
-      udp: true
-      uuid: dd0f3ac0-98db-4ad0-9ac4-a3db5b6aa18e
-      ws-opts:
-        headers:
-            Host: elegaNt-PrOJECt4lB40WUCws.wiNDLEr.Co.uK
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_25|13.3MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_55|12.4MB/s|TK-US|YT-US"
       network: ws
       password: 5a2c16f9
       port: "443"
@@ -570,14 +1131,14 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_26|27.8MB/s|TK-US|YT-US"
+      name: "\U0001F1FA\U0001F1F8US_56|14.8MB/s|TK-US|YT-US|GPT"
       network: ws
       port: "443"
-      server: 198.41.208.234
+      server: 104.16.65.1
       servername: snippets.kkii.eu.org
       tls: true
       type: vless
@@ -586,29 +1147,91 @@ proxies:
       ws-opts:
         headers:
             Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_27|22.2MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_57|2.7MB/s|YT-US"
       network: ws
+      password: 5a2c16f9
       port: "443"
-      server: 104.19.39.97
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
+      server: 104.26.1.110
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
       udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
             User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_58|9.7MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 104.19.220.22
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_28|10.9MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_59|25.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 173.245.59.84
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_60|11.2MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.17.202.10
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_61|16.8MB/s|TK-US|YT-US|GPT"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: 104.19.220.22
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_62|23.0MB/s|TK-US|YT-US|GPT"
       network: ws
       port: "443"
       server: 104.19.212.207
@@ -620,15 +1243,100 @@ proxies:
       ws-opts:
         headers:
             Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_29|12.2MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_63|14.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.10.122
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_64|16.1MB/s|YT-US|GPT⁺"
       network: ws
       port: "443"
-      server: 104.19.49.192
+      server: 104.25.63.32
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_65|9.9MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2096"
+      server: 172.64.151.220
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_1|3.7MB/s|YT-SG|GPT"
+      network: ws
+      port: "443"
+      server: 43.134.174.114
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_66|9.7MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "8443"
+      server: www.udacity.com
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_4|2.5MB/s|YT-CA"
+      network: ws
+      port: "443"
+      server: 108.162.198.185
       servername: snippets.kkii.eu.org
       tls: true
       type: vless
@@ -637,63 +1345,15 @@ proxies:
       ws-opts:
         headers:
             Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_30|25.5MB/s|TK-US|YT-US|GPT"
+      name: "\U0001F1FA\U0001F1F8US_67|9.8MB/s|TK-US|YT-US|GPT"
       network: ws
       port: "443"
-      server: cf.zhetengsha.eu.org
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_31|27.4MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      password: 5a2c16f9
-      port: "443"
-      server: 104.19.55.205
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|2.7MB/s|YT-SG|GPT⁺"
-      network: ws
-      port: "23333"
-      server: 124.243.132.106
-      servername: mikuyo.bpd67081tsq.ddns-ip.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 00000000-0000-4000-8000-000000000000
-      ws-opts:
-        headers:
-            Host: mikuyo.bpd67081tsq.ddns-ip.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /@Marisa_kristi
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_32|13.2MB/s|TK-US|YT-US|GPT⁺"
-      network: ws
-      port: "443"
-      server: 104.19.220.22
+      server: 172.67.79.235
       servername: snippets.kkii.eu.org
       tls: true
       type: vless
@@ -707,66 +1367,968 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3|3.3MB/s|TK-DE|YT-DE|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_68|4.4MB/s|TK-US|YT-US|GPT"
       network: ws
-      port: "1002"
-      server: 2.59.134.242
-      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      port: "443"
+      server: www.wto.org
+      servername: www.xaniusg1.qzz.io
       tls: true
       type: vless
       udp: true
-      uuid: 00000000-0000-4000-8000-000000000000
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: ennyfe.zipgd3vx91o.ddns-ip.net
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /@Marisa_kristi
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /?ed=2560
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F2\U0001F1E9MD_5|6.5MB/s|TK-US|YT-US|GPT⁺"
-      password: SS2QvbC9nqLp2sXXZo0BVy4slcErRuCt
-      port: "443"
-      server: 103.35.189.136
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6CA_5|10.4MB/s|YT-CA|GPT⁺"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: "990"
-      server: 79.127.200.169
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_3|8.7MB/s|TK-NL|YT-US|GPT⁺"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: "8080"
-      server: 193.29.139.204
-      type: ss
-      udp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_4|7.8MB/s|TK-NL|YT-NL|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 51.158.206.96
-      servername: fuck.rkn
+      name: "\U0001F1FA\U0001F1F8US_69|13.5MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.64.40.1
+      servername: www.xaniutw.qzz.io
       tls: true
       type: vless
       udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /?ed=2560
       xudp: true
     - client-fingerprint: chrome
       encryption: none
+      name: "\U0001F1FA\U0001F1F8US_70|6.6MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: www.wto.org
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_71|13.5MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2096"
+      server: x.cf.090227.xyz
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_72|10.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 108.162.194.99
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_73|10.2MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 108.162.195.59
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_74|9.6MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.1.142
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_75|10.1MB/s|TK-US|YT-CA|GPT"
+      network: ws
+      port: "443"
+      server: 104.25.127.147
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_76|7.4MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.15.93
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_77|9.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.34.130
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_78|9.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.67.173.133
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_79|6.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: www.wto.org
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_80|13.2MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.25.249
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_81|6.5MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.12.187
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_82|11.0MB/s|TK-CA|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.67.78.223
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_83|9.7MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.42.136
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_84|12.0MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.18.203
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_4|2.6MB/s|YT-HK"
+      network: ws
+      port: "443"
+      server: n1761214911.74qxv.top
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+      ws-opts:
+        headers:
+            Host: n1761214911.74qxv.top
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_85|12.3MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.18.63.116
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_86|12.5MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.16.29.98
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_87|14.1MB/s|TK-US|YT-US"
+      network: ws
+      password: 5a2c16f9
+      port: "443"
+      server: one.cf.cdn.hyli.xyz
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_5|10.6MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.21.29.56
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_88|10.0MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.3.119
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_89|12.6MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.42.136
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_90|9.0MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 162.159.1.142
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_91|11.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.18.203
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_92|14.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 172.64.34.130
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_93|11.7MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.18.63.116
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_94|13.1MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.11.235
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_95|5.9MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.16.45.99
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_96|12.7MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.21.29.56
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_97|12.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.15.93
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_98|24.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.16.29.98
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_99|11.2MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.19.29.53
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_100|11.9MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.11.235
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_6|11.5MB/s|YT-CA|GPT"
+      network: ws
+      port: "443"
+      server: 104.21.237.253
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_101|12.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.67.158.84
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_102|9.2MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.11.235
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_103|8.5MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "2087"
+      server: 162.159.0.4
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_104|11.8MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 173.245.59.111
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_105|8.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.3.119
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_106|13.3MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.24.254.62
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_107|13.0MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.18.63.103
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_108|14.8MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: cf.zhetengsha.eu.org
+      servername: snippets.kkii.eu.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_109|10.4MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "2087"
+      server: 162.159.35.140
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_110|12.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 172.67.173.133
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_111|10.0MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      port: "443"
+      server: 104.16.61.13
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_112|11.7MB/s|TK-US|YT-US"
+      network: ws
+      port: "2087"
+      server: 173.245.59.84
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E8\U0001F1E6CA_7|13.0MB/s|YT-CA|GPT"
+      network: ws
+      port: "443"
+      server: 104.21.237.222
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_113|5.7MB/s|TK-US|YT-US"
+      network: ws
+      port: "443"
+      server: 104.16.61.13
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_114|9.7MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.18.63.72
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_115|12.4MB/s|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.25.63.32
+      servername: www.xaniuhk.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniuhk.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_116|12.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.18.63.116
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_117|10.0MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.19.254.30
+      servername: www.xaniusg1.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniusg1.qzz.io
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_118|6.6MB/s|TK-US|YT-US|GPT"
+      network: ws
+      port: "443"
+      server: 104.19.254.30
+      servername: www.xaniutw.qzz.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.xaniutw.qzz.io
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_7|3.7MB/s|YT-JP|GPT⁺"
+      password: 44e660b0ee21cf3ac66aee2c08af85d2
+      port: "3169"
+      server: 160.16.107.37
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_8|3.6MB/s|YT-JP|GPT⁺"
+      password: 44e660b0ee21cf3ac66aee2c08af85d2
+      port: "3093"
+      server: 160.16.107.37
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_5|4.4MB/s"
+      password: 44e660b0ee21cf3ac66aee2c08af85d2
+      port: "443"
+      server: 112.118.116.8
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_33|8.8MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_119|8.7MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -780,66 +2342,9 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_2|4.3MB/s|YT-US|GPT⁺"
-      password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: "2760"
-      server: 160.16.63.16
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_34|8.8MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.169
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_35|6.4MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.175
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_36|3.8MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.198
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_37|3.5MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_120|6.1MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -855,101 +2360,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_38|5.0MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.168
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_39|5.9MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.164
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_40|3.7MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.197
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_41|7.4MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.146
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_5|2.1MB/s"
-      network: ws
-      port: "5443"
-      server: 89.23.103.60
-      type: vless
-      udp: true
-      uuid: 8f631f3f-5854-4d77-961a-ad33e10e29bb
-      ws-opts:
-        headers:
-            Host: noda3.mcqueenconnection.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /vless
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_42|5.2MB/s|TK-US|YT-US|GPT⁺"
-      network: tcp
-      port: "23576"
-      reality-opts:
-        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-        short-id: "01"
-      server: 15.204.97.148
-      servername: fuck.rkn
-      tls: true
-      type: vless
-      udp: true
-      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_43|3.4MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_121|5.5MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -965,7 +2376,130 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_44|2.5MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_122|3.6MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.214
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s|TK-NL|YT-US|GPT⁺"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "8080"
+      server: 193.29.139.204
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_2|4.3MB/s|TK-NL|YT-NL|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.96
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_123|2.9MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.169
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_124|3.5MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.172
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_125|3.0MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.198
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_126|4.5MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.164
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_127|4.2MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.168
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_128|3.4MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -981,13 +2515,13 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_45|7.9MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_129|2.8MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
         public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
         short-id: "01"
-      server: 15.204.97.167
+      server: 15.204.97.175
       servername: fuck.rkn
       tls: true
       type: vless
@@ -997,7 +2531,55 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_46|5.5MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_130|3.0MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.197
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_131|5.3MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.148
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_132|5.7MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.146
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_133|9.1MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -1011,32 +2593,16 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1FECY_1|5.4MB/s|TK-CY|YT-US|GPT⁺"
-      password: l668XHPejoSNNuD66BYzyehaCpZexiF7
-      port: "443"
-      server: 45.12.136.170
+      name: "\U0001F1E8\U0001F1E6CA_8|3.2MB/s|YT-CA|GPT⁺"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: "990"
+      server: 79.127.200.169
       type: ss
       udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_2|5.5MB/s|YT-RU"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: tEt-vtWho9yRtM2sz5pjolmh4aAshJDxvgtPwR-FIEc
-        short-id: e74115
-      server: 95.163.251.240
-      servername: www.vk.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9818b579-3746-468b-88ac-65bd26b28e86
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_47|3.4MB/s|TK-US|YT-US|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_134|5.9MB/s|TK-US|YT-US|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -1052,7 +2618,23 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4|5.9MB/s|TK-DE|YT-DE|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_135|5.1MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 15.204.97.167
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|5.6MB/s|TK-DE|YT-DE|GPT⁺"
       network: tcp
       port: "23576"
       reality-opts:
@@ -1066,21 +2648,70 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F4NO_1|4.1MB/s|TK-NO|YT-US|GPT⁺"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: "990"
-      server: 185.213.23.63
+      name: "\U0001F1E8\U0001F1FECY_1|4.7MB/s|TK-CY|YT-US|GPT⁺"
+      password: l668XHPejoSNNuD66BYzyehaCpZexiF7
+      port: "443"
+      server: 45.12.136.170
       type: ss
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|3.6MB/s|YT-JP|GPT⁺"
-      password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: "3169"
-      server: 160.16.107.37
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_3|5.5MB/s|TK-NL|YT-NL|GPT⁺"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.12
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_136|10.6MB/s|TK-US|YT-US"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: cf.130519.xyz
       skip-cert-verify: false
-      sni: www.nintendogames.net
+      sni: snippets.kkii.eu.org
       type: trojan
       udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_137|7.9MB/s|TK-US|YT-US|GPT⁺"
+      port: 33873
+      reality-opts:
+        public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
+        short-id: de550428
+      server: 139.144.199.41
+      servername: www.nokia.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
+    - name: "\U0001F1F7\U0001F1FARU_1|5.5MB/s|TK-FR|YT-US|GPT"
+      network: ws
+      packet-encoding: xudp
+      port: 443
+      server: 185.231.205.152
+      servername: ads.x5.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2b74e019-81b0-4c77-9f41-2f3aaf04132d
+      ws-opts:
+        headers:
+            Host: ads.x5.ru
+        path: /uefsanws
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -1088,7 +2719,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1F7\U0001F1FARU_3|4.9MB/s|TK-RU"
+      name: "\U0001F1F7\U0001F1FARU_2|4.0MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -1101,12 +2732,39 @@ proxies:
       udp: true
       uuid: 6142e134-346a-4ffe-bf5b-c3fb7e3c9dfb
       xudp: true
+    - name: "\U0001F1F2\U0001F1E9MD_3|4.0MB/s|TK-FR|YT-US|GPT⁺"
+      network: ws
+      port: 443
+      server: 94.131.118.18
+      servername: ads.x5.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 784ac0b2-3837-4889-8ad6-b58259dd1d0f
+      ws-opts:
+        headers:
+            Host: ads.x5.ru
+        path: /kmdznvws
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|2.9MB/s|YT-JP|GPT⁺"
-      password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: "3093"
-      server: 160.16.107.37
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_138|7.4MB/s|TK-US|YT-US|GPT⁺"
+      port: 28190
+      reality-opts:
+        public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+      server: 159.89.87.21
+      servername: aws.amazon.com
       skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_2|4.1MB/s|YT-US|GPT⁺"
+      password: 44e660b0ee21cf3ac66aee2c08af85d2
+      port: "2760"
+      server: 160.16.136.130
+      skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
       udp: true
@@ -1114,98 +2772,25 @@ proxies:
       name: "\U0001F1F8\U0001F1ECSG_3|3.4MB/s|YT-US|GPT⁺"
       password: 44e660b0ee21cf3ac66aee2c08af85d2
       port: "2760"
-      server: 160.16.116.227
+      server: 202.181.103.246
       skip-cert-verify: true
       sni: www.nintendogames.net
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_48|8.6MB/s|TK-US|YT-US|GPT⁺"
-      password: nX51bl545I
-      port: 38003
-      server: 64.81.34.56
-      type: http
-      username: UgpWOagagJ
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_49|9.2MB/s|TK-US|YT-US|GPT⁺"
-      network: none
-      port: 22524
-      server: 47.253.228.138
-      tls: false
-      type: vmess
-      uuid: 80845fcc-f862-45fe-c1d3-0a7120373712
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_50|6.0MB/s|TK-US|YT-CN|GPT⁺"
-      network: none
-      port: 38152
-      server: 154.29.157.189
-      tls: false
-      type: vmess
-      uuid: b8ce19b1-4b15-41f9-a206-11957cc902d4
-    - name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s|YT-TW|GPT⁺"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_51|2.6MB/s|TK-US|YT-US|GPT⁺"
-      network: none
-      port: 54661
-      server: 99.88.80.195
-      tls: false
-      type: vless
-      uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
-    - name: "\U0001F1F3\U0001F1F1NL_6|6.0MB/s|TK-NL|YT-NL|GPT⁺"
-      port: 1080
-      server: 161.35.82.57
-      type: socks5
-      udp: true
-    - name: "\U0001F1EE\U0001F1F3IN_1|3.1MB/s|YT-IN|GPT⁺"
-      port: 1080
-      server: 64.227.131.240
-      type: socks5
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_52|11.4MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-      port: "443"
-      server: 974e2823-t6ngg0-t7j1ub-g3b3.us.hyhuawei.com
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_53|11.7MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-      port: "443"
-      server: 41f54602-t6ngg0-t7m3jq-1rnrp.us.hyhuawei.com
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_54|9.6MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: "1743"
-      server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-      skip-cert-verify: false
-      sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-      type: hysteria2
-      up: ""
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6CA_9|8.1MB/s|YT-CA|GPT⁺"
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 79.127.233.170
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_10|20.8MB/s|YT-CA|GPT⁺"
+      obfs: plain
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      protocol: origin
+      server: 79.127.233.170
+      type: ssr
     - name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s|YT-KR|GPT⁺"
       password: test.+
       port: 30446
@@ -1215,120 +2800,115 @@ proxies:
       type: http
       udp: true
       username: test
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_55|8.8MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-      port: "443"
-      server: 4859e911-t6ngg0-t7hsj2-1gevg.us.hyhuawei.com
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_56|9.9MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-      port: "1743"
-      server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      skip-cert-verify: false
-      sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_57|11.4MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: "1743"
-      server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      skip-cert-verify: false
-      sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_58|11.2MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: "1743"
-      server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_59|9.2MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: "1743"
-      server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-      skip-cert-verify: false
-      sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_60|9.4MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-      port: "1743"
-      server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-      skip-cert-verify: false
-      sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_61|9.4MB/s|TK-US|YT-US|GPT⁺"
-      obfs: ""
-      obfs-password: ""
-      password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-      port: "1743"
-      server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-      skip-cert-verify: false
-      sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_5|8.5MB/s|TK-DE|YT-US|GPT⁺"
-      obfs: salamander
-      obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-      password: jk9cSiRPv7
-      port: "443"
-      server: 91.99.225.11
-      skip-cert-verify: true
-      sni: refersion.com
-      type: hysteria2
-      up: ""
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6CA_11|2.5MB/s|YT-US|GPT⁺"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 45.154.204.7
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_62|2.5MB/s|TK-GB|YT-US|GPT"
-      network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: ovhwuxian.pai50288.uk
-      skip-cert-verify: true
-      tfo: true
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_139|3.8MB/s|TK-US|YT-RU"
+      port: 443
+      reality-opts:
+        public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
+      server: ru2.tunnely.ru
+      servername: vk.com
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      uuid: c42e4667-ca09-4769-b544-89a8da730daf
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_4|3.4MB/s|TK-NL|YT-RU|GPT⁺"
+      port: 443
+      reality-opts:
+        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+        short-id: 8453e5fd9af927
+      server: ru-nl01-vlr01.tcp-reset-club.net
+      servername: hls-svod.itunes.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_5|4.2MB/s|TK-NL|GPT⁺"
+      port: 443
+      reality-opts:
+        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+        short-id: d1579a8745398e34
+      server: 89.169.137.193
+      servername: eh.vk.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
+    - name: "\U0001F1FA\U0001F1F8US_140|9.5MB/s|TK-US|YT-US|GPT⁺"
+      password: nX51bl545I
+      port: 38003
+      server: 64.81.34.56
+      type: http
+      username: UgpWOagagJ
+    - name: "\U0001F1FA\U0001F1F8US_141|10.8MB/s|TK-US|YT-US|GPT⁺"
+      network: ws
+      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+      port: 443
+      server: cf.zhetengsha.eu.org
+      skip-cert-verify: false
+      sni: _acme-challenge.2go.cloudns.be
+      type: trojan
       ws-opts:
         headers:
-            Host: ovhwuxian.pai50288.uk
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /57ba2ab1
-    - name: "\U0001F1ED\U0001F1F0HK_2|4.2MB/s|YT-HK"
+            Host: _acme-challenge.2go.cloudns.be
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_142|2.4MB/s|TK-US|YT-US|GPT⁺"
+      network: tcp
+      port: 33873
+      reality-opts:
+        public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
+        short-id: de550428
+      server: 139.144.199.41
+      servername: www.nokia.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
+    - cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_143|3.1MB/s|TK-US|YT-US|GPT⁺"
+      network: none
+      port: 54661
+      server: 99.88.80.195
+      tls: false
+      type: vless
+      uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
+    - alterId: 0
+      cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_6|4.5MB/s|TK-NL|YT-US|GPT⁺"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.179
+      skip-cert-verify: true
+      tls: true
+      type: ss
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1EASE_1|6.1MB/s|TK-SE|YT-US|GPT⁺"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+      password: e20cc63dc06088fba56bf786860aadaf
+      port: "989"
+      server: dd.openaccessnode.com
+      skip-cert-verify: true
+      sni: dd.ircybersec.org
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1ED\U0001F1F0HK_6|3.4MB/s|YT-HK"
       network: tcp
       password: 44e660b0ee21cf3ac66aee2c08af85d2
       port: 443
@@ -1336,27 +2916,45 @@ proxies:
       skip-cert-verify: false
       sni: www.nintendogames.net
       type: trojan
-    - name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s|TK-JP|YT-JP|GPT⁺"
+    - name: "\U0001F1F0\U0001F1F7KR_2|2.9MB/s|YT-KR|GPT⁺"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_2|4.8MB/s|TK-DE|YT-US|GPT⁺"
+      obfs: salamander
+      obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+      password: ltN6NLua9i
+      port: "443"
+      server: 91.99.225.11
+      skip-cert-verify: true
+      sni: refersion.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F8\U0001F1ECSG_4|3.0MB/s|YT-US|GPT⁺"
       network: tcp
       password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: 3169
-      server: 160.16.107.37
+      port: 2760
+      server: 160.16.136.130
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F8\U0001F1ECSG_5|3.7MB/s|YT-US|GPT⁺"
+      network: tcp
+      password: 44e660b0ee21cf3ac66aee2c08af85d2
+      port: 2760
+      server: 202.181.103.246
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+    - name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s|YT-TW|GPT⁺"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
       skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_4|4.0MB/s|YT-US|GPT⁺"
-      network: tcp
-      password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: 2760
-      server: 160.16.116.227
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_5|4.3MB/s|YT-US|GPT⁺"
-      network: tcp
-      password: 44e660b0ee21cf3ac66aee2c08af85d2
-      port: 2760
-      server: 160.16.57.238
-      skip-cert-verify: true
-      sni: www.nintendogames.net
-      type: trojan
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
