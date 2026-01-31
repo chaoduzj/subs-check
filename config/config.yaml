@@ -218,7 +218,7 @@ sub-urls:
 #
   - https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
   - https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml
-  - https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=5xwthvdjbvm1sbrwomlpcralcs5km568&target=clash&list=1
+  - https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=2i94lkqi1uvd9eeab6&target=clash&list=1
   - https://raw.githubusercontent.com/fighter2011/aggregator/refs/heads/main/aggregate/data/proxies.yaml
   - https://raw.githubusercontent.com/PangTouY00/aggregator/refs/heads/main/data/clash.yaml
   - https://raw.githubusercontent.com/wokaotianshi123/aggregator/refs/heads/main/data/clash.yaml
@@ -326,31 +326,6 @@ sub-urls:
   - https://ghproxy.net/https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
   - https://rss.zyfx6.xyz/clash/
   - https://rss.zyfx6.xyz/v2rayNG/
-  - https://s3.v2rayse.com/public/20251103/56j0rqlw.yaml
-  - https://s3.v2rayse.com/public/20251104/e8g2r5hr.yaml
-  - https://s3.v2rayse.com/public/20251105/qoyhx7ma.yaml
-  - https://s3.v2rayse.com/public/20251106/t67vpyvv.yaml
-  - https://s3.v2rayse.com/public/20251108/08sb02um.yaml
-  - https://s3.v2rayse.com/public/20251111/lvt5qs4o.yaml
-  - https://s3.v2rayse.com/public/20251112/yzqk0sjj.yaml
-  - https://s3.v2rayse.com/public/20251114/kq7i7qpd.yaml
-  - https://s3.v2rayse.com/public/20251116/1h37mlyg.yaml
-  - https://s3.v2rayse.com/public/20251117/91etqyjm.yaml
-  - https://s3.v2rayse.com/public/20251118/xevehv9t.yaml
-  - https://s3.v2rayse.com/public/20251119/m3e0vok2.yaml
-  - https://s3.v2rayse.com/public/20251120/4e5bpb1f.yaml
-  - https://s3.v2rayse.com/public/20251121/5fami1vp.yaml
-  - https://s3.v2rayse.com/public/20251122/7wc5x13f.yaml
-  - https://s3.v2rayse.com/public/20251123/1o958oxu.yaml
-  - https://s3.v2rayse.com/public/20251125/7pwn8iob.yaml
-  - https://s3.v2rayse.com/public/20251126/du8x69yh.yaml
-  - https://s3.v2rayse.com/public/20251204/s00rpalz.yaml
-  - https://s3.v2rayse.com/public/20251207/bjh1uzyz.yaml
-  - https://s3.v2rayse.com/public/20251211/x7dejxng.txt
-  - https://s3.v2rayse.com/public/20251213/rvv00ia8.yaml
-  - https://s3.v2rayse.com/public/20251215/2h1di4mj.yaml
-  - https://s3.v2rayse.com/public/20251216/sehgijk6.yaml
-  - https://s3.v2rayse.com/public/20251217/tx9jc3jq.txt
   - https://sub.966888.xyz/api/v1/client/subscribe?token=2c53cb842bd6e2366782444aac8cfc16&amp;flag%EF%BC%9D%E8%81%94%E9%80%9Awifi%E4%B9%9F%E6%98%AF%E8%B6%85%E6%97%B6%E4%B8%8D%E8%83%BD%E7%94%A8
   - https://sub.easyinternet.one/api/v1/client/subscribe?token=00787f80891987ac8151d4fdd28bf64f
   - https://sub.easyinternet.one/api/v1/client/subscribe?token=06cdbe8084f68d5430de6119045b1d74
@@ -444,4 +419,4 @@ sub-urls:
   - https://zaske.louwangzhiyu.online/api/v1/client/subscribe?token=8ee5c608451e233f891a7ff7e8767437
   - https://zh.momobaby.org/download/clash/33cbf3a5b0612bff0b3565b433d84da8355e7ef21385c42766e2bae7b142208a?config_name=SB%E4%B9%A0%E8%BF%91%E5%B9%B3
   - https://zh.momobaby.org/download/clash/90417e0ea428c39aa842758e7245db1e8504044a0136a945f6af32470f1c6e64?config_name=ALL-CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9-clash%E8%AE%A2%E9%98%85
-  - https://zh.momobaby.org/download/clash/b95ee96f166791544c32b1e971a098fd859d8aecb619049e9ad46083b1d18c1a?config_name=LiNigori369-1 
+  - https://zh.momobaby.org/download/clash/b95ee96f166791544c32b1e971a098fd859d8aecb619049e9ad46083b1d18c1a?config_name=LiNigori369-1
